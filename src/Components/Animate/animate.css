@@ -1,0 +1,42 @@
+.boxPage {
+  whidth: 1200px;
+  magin-top: 2px;
+  background: #000;
+  padding: 8px;
+
+  z-index: 0;
+  @media (max-width: 768px) {
+  }
+}
+#boxcarrocel {
+  fontfamily: Poppins;
+  animation: fadeIn 5s;
+  display: flex;
+  justifycontent: center;
+  alignitems: center;
+  flexwrap: wrap;
+  color: red;
+}
+.boxA {
+  whidth: 400px;
+  height: 100px;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.fade-in-text {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
