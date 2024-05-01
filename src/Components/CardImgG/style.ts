@@ -21,7 +21,7 @@ margin-left:1rem;
  @media (max-width: 768px) {
   margin-left:0;
   margin-top:60px;
-  width: 80vw;
+  width: 60vw;
 height: 40vh;
  }
 `;

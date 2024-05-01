@@ -61,7 +61,6 @@
 @media (max-width: 768px) {
   .containerzap {
     bottom: 200px;
-    right: 8.5rem;
-    background: #000;
+    right: 10.5rem;
   }
 }
