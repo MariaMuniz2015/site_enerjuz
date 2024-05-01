@@ -64,7 +64,7 @@ margin-top:2rem;
  width:90%;
  @media (max-width: 768px) {
 width:60%;
- margin-left:-12rem;
+ margin-left:2rem;
  margin-right:1rem;
   }
 `;

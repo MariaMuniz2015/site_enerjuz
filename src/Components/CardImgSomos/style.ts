@@ -15,6 +15,7 @@ margin-top:20px;
 width: 28rem;
 height: 18rem;
 @media (max-width: 768px) {
+  margin-left:30px;
  width:20rem;
  height: 12rem;
   }
