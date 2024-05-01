@@ -47,7 +47,7 @@ export const Paragrafo = styled.div`
     text-align: justify;
 
     @media (max-width: 768px) {
-      width:60vw;
+      width:70vw;
       margin-top:4rem;
       margin-bottom:2rem;
       margin-left:4rem;
@@ -81,7 +81,7 @@ width:90vw;
     @media (max-width: 768px) {
     flex-direction: column-reverse;
     margin-top:2.4rem;
-    height:36rem;
+    height:38rem;
     }
   
 

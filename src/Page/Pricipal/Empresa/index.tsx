@@ -10,7 +10,7 @@ import equipe from '../../../Components/Img/imgequipe.png';
 import painelSolar from '../../../Components/Img/painelSolar.png';
 
 import { BoxTitulo } from '../../../Components/BoxTitulo';
-import { CardImgG } from '../../../Components/CardImgG';
+import { CardImgEquipeEmpresa } from '../../../Components/CardImgEquipeEmpresa';
 import { Footer } from '../../../Components/Footer';
 import { ButtonCustomer } from '../../../Components/ButtonCustomer';
 import { CardVisao } from '../../../Components/CardVisao';
@@ -25,7 +25,7 @@ export const Empresa: React.FC = () => {
            <ContainerPage>
 
            <CardContact>
-           <CardImgG  imagem={equipe} />
+           <CardImgEquipeEmpresa imagem={equipe} />
            <CardContato/>
 
     </CardContact>
