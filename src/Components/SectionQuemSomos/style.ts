@@ -24,7 +24,7 @@ export const ColumTexto= styled.div`
     justify-content:flex-start;
     align-items:center;
     @media (max-width: 768px) {
- max-width:500px;
+ max-width:300px;
     }
 
 `;
@@ -36,6 +36,7 @@ export const ColumnPage= styled.div`
 margin-bottom:4rem;
 @media (max-width: 768px) {
     flex-direction: column;
+    align-items:start;
   }
 `;
 
