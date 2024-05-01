@@ -53,6 +53,11 @@ export const Paragrafo = styled.div`
       margin-left:4rem;
       margin-right:1rem;
   }
+
+  @media (max-width: 460px) {
+      width:70vw;
+      margin-left:2rem;
+  }
  
 `;
 export const Card= styled.div`
@@ -83,6 +88,10 @@ width:90vw;
     margin-top:2.4rem;
     height:38rem;
     }
-  
+    @media (max-width: 460px) {
+    flex-direction: column-reverse;
+    margin-top:2.4rem;
+    height:44rem;
+    }
 
 `;

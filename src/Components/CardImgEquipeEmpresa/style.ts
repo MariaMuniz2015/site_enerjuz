@@ -22,6 +22,6 @@ margin-left:1rem;
   margin-left:0;
   margin-top:60px;
   width: 80vw;
-height: 40vh;
+height: 28vh;
  }
 `;
