@@ -20,7 +20,7 @@ border-radius:0.5rem;
 
  @media (max-width: 768px) {
   width:90%;
-  margin-top:0;
+  margin-top:2rem;
  }
 `;
 
