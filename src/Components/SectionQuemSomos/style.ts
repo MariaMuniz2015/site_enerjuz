@@ -36,6 +36,7 @@ export const ColumnPage= styled.div`
 margin-bottom:4rem;
 @media (max-width: 768px) {
     flex-direction: column;
+    justify-content:flex-start;
     align-items:start;
   }
 `;
