@@ -164,11 +164,6 @@ export const Home: React.FC = () => {
   </Box>
       </SectionSolarCinza>
 
-
-
-
-
-
       <SectionServico>
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>

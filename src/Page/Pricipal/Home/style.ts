@@ -216,7 +216,7 @@ color: #002060;
 margin-top:6rem;
 font-family: 'Poppins', sans-serif;
 @media (max-width: 768px) {
-    margin-top:-2rem;
+    margin-top:2rem;
      margin-left:4rem;
         }
          
