@@ -17,7 +17,7 @@ export const CardServico: React.FC<Props> = (props) =>{
 
   return (
     <div className="card">
-    <div className="col-sm">
+    <div>
       <Card style={{ width:'18rem'}}>
         <Card.Img  variant="top" src={props.imagem} />
         <Card.Body>

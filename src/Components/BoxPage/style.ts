@@ -68,7 +68,8 @@ width:50rem;
     flex-wrap:wrap;
     @media (max-width: 768px) {
         flex-direction:column;
-        width:80rem;
+        width:20rem;
+     
     }
   `;
 

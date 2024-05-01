@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -83,7 +88,7 @@ nav ul li ul li {
   width: 100%;
 }
 nav ul li ul li a {
-  padding: 1.4rem 1.4rem 0 0;
+  padding: 0.4rem 0.4rem 0 0;
   font-size: 14px;
 }
 nav ul li:hover ul {
@@ -178,7 +183,7 @@ ul li a:hover::after {
 .nav_menu_wrapper button {
   padding: 0.5rem 2rem;
   color: #fff;
-  background-color: #ccc;
+  background-color: #000;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -200,13 +205,13 @@ ul li a:hover::after {
   align-items: flex-end;
   flex-direction: column;
   text-align: end;
-  background: #ccc;
+  background: #000;
   padding: 2rem;
   position: absolute;
   top: 20px;
   right: 0;
   margin-top: 1rem;
-  min-width: 210px;
+  min-width: 230px;
   border-radius: 5px;
   box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
 }
@@ -228,6 +233,16 @@ ul li a:hover::after {
   display: flex;
   flex-direction: column;
 }
+
+.fa-caret-down {
+  color: #fff;
+  float: right;
+  padding-right: 1px;
+}
+.inst {
+  padding-right: 8px;
+}
+
 @media screen and (max-width: 1050px) {
   .container {
     padding: 2rem 4rem;
@@ -246,6 +261,24 @@ ul li a:hover::after {
     display: flex;
   }
 }
+@media screen and (max-width: 700px) {
+  .btn {
+    display: none;
+  }
+  .inst {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .fa-caret-down {
+    display: none;
+  }
+  nav ul li ul li a {
+    padding: 2.4rem 0 0 0;
+    font-size: 16px;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .header {
@@ -256,15 +289,14 @@ ul li a:hover::after {
   }
   nav ul li ul {
     position: absolute;
-    background-color: #ababab;
-
+    background-color: #002060;
     z-index: 2;
   }
   nav ul li ul li {
     margin-top: 0px;
     text-align: left;
     margin-left: 0;
-    width: 90%;
+    width: 20%;
   }
 }
 

@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 export const Container= styled.div`
-width:90vw;
+width:99vw;
 height:50vh;
 display:flex;
 justify-content:center;
@@ -24,7 +24,7 @@ background:#172554;
 
 
 export const ContainerPage = styled.div`
-width:96vw;
+width:99vw;
 //height:300px;
     display:flex;
     justify-content:space-between;
@@ -97,12 +97,12 @@ display:flex;
 justify-content:center;
  align-items:center;
 flex-direction:column;
-background:#172554;
+background:#000;
 
 `;
 
 export const Rodape = styled.div`
-width:96vw;
+width:100vw;
 height:4rem;
 flex-wrap:wrap;
 display:flex;

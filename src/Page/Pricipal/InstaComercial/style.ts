@@ -13,6 +13,7 @@ export const Container = styled.div`
     z-index:0;
     
     @media (max-width: 768px) {
+        width:90vw;
    margin-bottom:24rem;
     }
 `;

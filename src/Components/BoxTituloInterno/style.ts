@@ -10,6 +10,13 @@ export const Container = styled.div`
    margin-bottom:1rem;
    flex-direction:row;
    background-image:url("topo3.png");
+
+
+
+   @media (max-width: 768px) {
+     
+ 
+          }
     `;
 
 export const Box = styled.div`

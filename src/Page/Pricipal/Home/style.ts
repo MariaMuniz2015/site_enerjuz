@@ -160,7 +160,7 @@ export const BoxServico = styled.div`
     justify-content:space-around;
     align-items:center;
     @media (max-width: 768px) {
-       
+        width:60vw;
         display:block; 
         justify-content:center;
         align-items:center;
@@ -201,6 +201,11 @@ export const BoxImage = styled.div`
         color: #002060;
         margin-top:10rem;
         font-family: 'Poppins', sans-serif;
+
+        @media (max-width: 768px) {
+         margin-top:10rem;
+         }
+          
          `;
 
 export const TituloSectionFunc = styled.h4`
@@ -211,7 +216,7 @@ color: #002060;
 margin-top:6rem;
 font-family: 'Poppins', sans-serif;
 @media (max-width: 768px) {
-      
+    margin-top:-2rem;
      margin-left:4rem;
         }
          

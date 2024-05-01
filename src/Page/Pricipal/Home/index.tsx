@@ -74,7 +74,7 @@ export const Home: React.FC = () => {
           <MSlider>
     <MobileAnimate/>
     </MSlider>
-      <ButtonCustomer/>
+   
       </SectionMobile>
 
       <SectionSolarFuncionamento> 
@@ -179,6 +179,8 @@ export const Home: React.FC = () => {
       </SectionServico>
 
    <SectionSolar>
+
+  
   <SectionQuemSomos/>
 </SectionSolar>
 

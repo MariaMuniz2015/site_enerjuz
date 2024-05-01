@@ -19,7 +19,11 @@ const Menu = () => (
           <Link to="/empresa">Empresa</Link>
         </li>
         <li>
-          <a href="#">Serviços</a>
+          <a href="#">
+            Serviços
+            <i class="fa fa-caret-down"></i>
+          </a>
+
           <ul>
             <li>
               <a href="/agro">Agro</a>
@@ -46,9 +50,11 @@ const Menu = () => (
           <div className="btn">(37)9999-8888</div>
         </li>
         <li>
-          <a target="blank" href="https://www.instagram.com/enerjuzsolar/">
-            <InstagramIcon color="warning" />
-          </a>
+          <div className="inst">
+            <a target="blank" href="https://www.instagram.com/enerjuzsolar/">
+              <InstagramIcon color="warning" />
+            </a>
+          </div>
         </li>
       </ul>
     </nav>

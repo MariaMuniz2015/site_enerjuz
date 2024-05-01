@@ -61,20 +61,27 @@ width:76rem;
     justify-content:space-between;
     align-items:center;
     flex-direction:row;
-    @media (max-width: 768px) {
-       
-       flex-direction:column;
-       justify-content:center;
-    align-items:center;
+    @media (max-width: 1000px) {
+      flex-direction:column;
+        width:20rem;
+ 
    }
   `;
 
 export const BoxIcone = styled.div`
-
+   width:90%;
    display: flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
+   
+    @media (max-width: 1000px) {
+      width:40%;
+      margin-bottom:10px;
+      
+   }
+
+
   `;
 
   export const Titulo = styled.p`

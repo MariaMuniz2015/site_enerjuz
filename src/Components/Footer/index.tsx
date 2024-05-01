@@ -89,7 +89,7 @@ ATENDIMENTO
 </ContainerPage>
 
   <ColumnRodape>
-     <Rodape> Enerjuz - © 2024 - Todos os Direitos reservados - Desenvolvimento....</Rodape>
+     <Rodape> Enerjuz - © 2024 - Todos os Direitos reservados - Desenvolvimento MariaMuniz.</Rodape>
   </ColumnRodape>
 </Container>
   );

@@ -60,7 +60,8 @@
 }
 @media (max-width: 768px) {
   .containerzap {
-    bottom: 305px;
-    right: 3.5rem;
+    bottom: 200px;
+    right: 8.5rem;
+    background: #000;
   }
 }

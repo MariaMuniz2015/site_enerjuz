@@ -95,10 +95,10 @@
 }
 @media (max-width: 768px) {
   .containerDiv {
-    width: 22srem;
+    width: 19rem;
     padding: 1rem;
     height: 400px;
-    margin-bottom: 18rem;
+    margin-bottom: 22rem;
   }
   .form {
     max-width: 19rem;

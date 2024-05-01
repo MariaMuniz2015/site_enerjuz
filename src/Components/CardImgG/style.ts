@@ -19,9 +19,9 @@ height: 70vh;
  border-radius:0.5rem;
 margin-left:1rem;
  @media (max-width: 768px) {
-
-  margin-top:0;
-  width: 60vw;
-height: 30vh;
+  margin-left:0;
+  margin-top:60px;
+  width: 80vw;
+height: 40vh;
  }
 `;
