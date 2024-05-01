@@ -9,7 +9,7 @@ import {CardInstalacao} from "../../../Components/CardInstalacao";
 import { ButtonCustomer } from '../../../Components/ButtonCustomer';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import { Container, Section, Box, TituloSection,TituloSectionF,SubTitulo,SectionServico,  SectionSolar, SectionSolarCinza, SectionSolarCinzaI, Traco, BoxImage, SectionSolarFuncionamento, TituloSectionFunc, SectionSolarFuncionamento2, BoxServico, Mobile, MSlider, SectionMobile} from './style';
+import { Container, Section, Box, TituloSection,TituloSectionF,SubTitulo,SectionServico,  SectionSolar, SectionSolarCinza, SectionSolarCinzaI, Traco, BoxImage, SectionSolarFuncionamento, TituloSectionFunc, SectionSolarFuncionamento2, BoxServico, Mobile, MSlider, SectionMobile, TituloSectionFuncB} from './style';
 import { TextTituloSection } from '../../../Components/TextTituloSection';
 import { SectionQuemSomos } from '../../../Components/SectionQuemSomos';
 import { CardServico } from '../../../Components/CardServico';
@@ -78,7 +78,7 @@ export const Home: React.FC = () => {
       </SectionMobile>
 
       <SectionSolarFuncionamento> 
-      <TituloSectionFunc>BENEFÍCIOS DO SISTEMA FOTOVOLTAICO</TituloSectionFunc>
+      <TituloSectionFuncB>BENEFÍCIOS DO SISTEMA FOTOVOLTAICO</TituloSectionFuncB>
        <Traco>_______________________</Traco>
 
     <Box>

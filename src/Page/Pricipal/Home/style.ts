@@ -207,6 +207,21 @@ export const BoxImage = styled.div`
          }
           
          `;
+         
+
+
+export const TituloSectionFuncB = styled.h4`
+display:flex;
+justify-content:center;
+align-items:center;
+color: #002060;
+margin-top:6rem;
+font-family: 'Poppins', sans-serif;
+@media (max-width: 768px) {
+    margin-top:6rem;
+     margin-left:4rem;
+        }    
+`;
 
 export const TituloSectionFunc = styled.h4`
 display:flex;
@@ -218,8 +233,7 @@ font-family: 'Poppins', sans-serif;
 @media (max-width: 768px) {
     margin-top:2rem;
      margin-left:4rem;
-        }
-         
+        }    
 `;
          export const SubTitulo = styled.h5`
          width:80%;
