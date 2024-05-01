@@ -189,7 +189,7 @@ export const BoxImage = styled.div`
        margin-top:8rem;
        font-family: 'Poppins', sans-serif;
        @media (max-width: 768px) {
-        margin-top:0.2rem;
+        margin-top:-6rem;
     
       }
        
@@ -235,7 +235,7 @@ font-family: 'Poppins', sans-serif;
      margin-left:4rem;
         }    
 `;
-         export const SubTitulo = styled.h5`
+         export const SubTitulo = styled.h6`
          width:80%;
          display:flex;
         justify-content:center;
@@ -246,7 +246,7 @@ font-family: 'Poppins', sans-serif;
         font-family: 'Poppins', sans-serif;
 
         @media (max-width: 768px) {
-        
+            margin-top:1rem;
        margin-left:3rem;
       }
        `;
