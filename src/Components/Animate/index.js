@@ -2,7 +2,7 @@ import React from "react";
 
 import "./animate.css";
 import Carousel from "react-bootstrap/Carousel";
-
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Animate() {
@@ -66,7 +66,7 @@ function Animate() {
               style={{
                 color: "#ffffb2",
                 fontSize: "1.2rem",
-                marginBottom: "10rem",
+                marginBottom: "8rem",
                 fontFamily: "Poppins",
                 animation: "fadeIn 5s",
               }}
@@ -78,9 +78,10 @@ function Animate() {
                   color: "#fff",
                   padding: "1rem",
                   fontSize: "1.6rem",
+                  textDecoration: "none",
                 }}
               >
-                Saiba Mais
+                <Link to="/usina">SAIBA MAIS</Link>
               </p>
             </p>
           </Carousel.Caption>

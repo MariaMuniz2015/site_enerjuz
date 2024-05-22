@@ -1,14 +1,18 @@
-import {Container, Texto} from "./style";
-
+import {Container, Texto, TextoA} from "./style";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 export const Obrigada: React.FC = () => {
 
   return(
  <Container>
-  <Texto>
-    Obrigada !
+  <TextoA>
+    Obrigada!  </TextoA>
+
+    <Texto>
     Responderemos sua mensagem o mais rápido possível!
   </Texto>
+  <a href="/contato">
+   <ArrowBackIosNewIcon color="warning"/>Contato</a>
  </Container>
 
   

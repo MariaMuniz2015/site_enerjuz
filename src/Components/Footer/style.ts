@@ -97,7 +97,7 @@ display:flex;
 justify-content:center;
  align-items:center;
 flex-direction:column;
-background:#000;
+background:#172554;
 
 `;
 
