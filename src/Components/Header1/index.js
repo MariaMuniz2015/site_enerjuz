@@ -103,7 +103,7 @@ const Header1 = () => {
       <div className="links">
         <div className="tel">
           <CallIcon color="warning" />
-          <a href="tel:31999766499">(37)9999-8888</a>
+          <a href="tel:31999766499">(31)99976-6499</a>
         </div>
         <div className="links_logo">
           <Logo imagem={logo} />

@@ -90,8 +90,14 @@ function MobileAnimate() {
               <p
                 style={{
                   color: "#fff",
-                  padding: "1rem",
-                  fontSize: "1.2rem",
+                  padding: "0.4rem",
+                  fontSize: "0.8rem",
+                  background: "#ccc",
+                  width: "120px",
+                  borderRadius: "10px",
+                  position: "absolute",
+                  top: "80%",
+                  left: "34%",
                 }}
               >
                 Saiba Mais

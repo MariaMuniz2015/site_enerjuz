@@ -76,9 +76,14 @@ function Animate() {
               <p
                 style={{
                   color: "#fff",
-                  padding: "1rem",
-                  fontSize: "1.6rem",
-                  textDecoration: "none",
+                  padding: "0.4rem",
+                  fontSize: "1.2rem",
+                  background: "#ccc",
+                  width: "160px",
+                  borderRadius: "10px",
+                  position: "absolute",
+                  top: "50%",
+                  left: "42%",
                 }}
               >
                 <Link to="/usina">SAIBA MAIS</Link>

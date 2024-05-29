@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+a {
+  color: #fff;
+  text-decoration: none;
+}
 .tel {
   display: flex;
   justify-content: center;

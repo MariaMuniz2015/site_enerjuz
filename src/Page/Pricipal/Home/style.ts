@@ -236,16 +236,16 @@ font-family: 'Poppins', sans-serif;
         }    
 `;
          export const SubTitulo = styled.h6`
-         width:80%;
+         width:100%;
          display:flex;
         justify-content:center;
         align-items:center;
-
         margin-top:1rem;
         color: #002060;
         font-family: 'Poppins', sans-serif;
 
         @media (max-width: 768px) {
+            width:80%;
             margin-top:1rem;
        margin-left:3rem;
       }
