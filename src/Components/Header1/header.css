@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  height: 50px;
+  color: #fff;
+}
 .header {
   position: fixed;
   top: 0;
@@ -158,6 +166,7 @@ ul li a:hover::after {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background: red;
 }
 
 .links_wrapper ul li,
@@ -268,9 +277,16 @@ ul li a:hover::after {
   .inst {
     display: none;
   }
+
+  .links {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 700px) {
+  .tel {
+    display: none;
+  }
   .fa-caret-down {
     display: none;
   }

@@ -4,7 +4,7 @@ import { Logo } from "../Logo";
 import { Link, useLocation } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
-
+import CallIcon from "@mui/icons-material/Call";
 import logo from "../Img/logoTransparent.png";
 import "./header.css";
 
@@ -99,7 +99,12 @@ const Header1 = () => {
   return (
     <header className={`header ${isSticky ? "sticky" : ""}`}>
       {/* Your header content */}
+
       <div className="links">
+        <div className="tel">
+          <CallIcon color="warning" />
+          <a href="tel:31999766499">(37)9999-8888</a>
+        </div>
         <div className="links_logo">
           <Logo imagem={logo} />
         </div>
