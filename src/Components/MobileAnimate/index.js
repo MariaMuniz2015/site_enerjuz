@@ -97,7 +97,7 @@ function MobileAnimate() {
                   borderRadius: "10px",
                   position: "absolute",
                   top: "80%",
-                  left: "34%",
+                  left: "30%",
                 }}
               >
                 Saiba Mais
