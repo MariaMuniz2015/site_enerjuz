@@ -1,11 +1,15 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 import "./animate.css";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 function Animate() {
+  useEffect(() => {
+    Aos.init({ duration: 1800 });
+  }, []);
   return (
     <div>
       <Carousel>

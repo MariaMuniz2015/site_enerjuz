@@ -1,7 +1,7 @@
 import React from "react";
 
 import Carousel from "react-bootstrap/Carousel";
-
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function MobileAnimate() {
@@ -80,9 +80,11 @@ function MobileAnimate() {
               style={{
                 color: "#ffffb2",
                 fontSize: "0.8rem",
-
+                marginTop: "10%",
                 fontFamily: "Poppins",
                 animation: "fadeIn 5s",
+
+                marginBottom: "40px",
               }}
             >
               Alugue um sistema fotovoltaico e economize na sua conta de energia
@@ -90,17 +92,17 @@ function MobileAnimate() {
               <p
                 style={{
                   color: "#fff",
-                  padding: "0.4rem",
+                  padding: "0.6rem",
                   fontSize: "0.8rem",
-                  background: "#ccc",
+                  backgroundColor: "#ccc",
                   width: "120px",
                   borderRadius: "10px",
                   position: "absolute",
-                  top: "80%",
-                  left: "30%",
+                  top: "70%",
+                  left: "28%",
                 }}
               >
-                Saiba Mais
+                <Link to="/usina">SAIBA MAIS</Link>
               </p>
             </p>
           </Carousel.Caption>

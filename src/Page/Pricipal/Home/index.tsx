@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+
 import Slider from "../../../Components/Slider";
 import { SwiperSlide, SwiperProps} from "swiper/react";
 import 'swiper/css/navigation';
@@ -43,7 +43,9 @@ import Animate from '../../../Components/Animate';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CardFucionamento } from '../../../Components/CardFuncionamento';
 import MobileAnimate from '../../../Components/MobileAnimate';
-
+import React, { useEffect } from 'react';
+import "aos/dist/aos.css"
+import Aos from "aos";
 
 
 
@@ -61,6 +63,10 @@ const settings: SwiperProps= {
 }
 
 export const Home: React.FC = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1800 });
+  }, []);
     return (
       <Container>
         <Section> 
@@ -81,7 +87,7 @@ export const Home: React.FC = () => {
       <TituloSectionFuncB>BENEFÍCIOS DO SISTEMA FOTOVOLTAICO</TituloSectionFuncB>
        <Traco>_______________________</Traco>
 
-    <Box>
+    <Box data-aos="zoom-in">
   <Slider settings={settings}>
   <SwiperSlide> <CardSolar descricao='Economia de até 90% em sua conta de luz'
            numero='1'
@@ -117,7 +123,7 @@ export const Home: React.FC = () => {
   </Box>
   </SectionSolarFuncionamento>
 
-  <SectionSolarFuncionamento2>
+  <SectionSolarFuncionamento2  data-aos="zoom-in-up">
   <TituloSectionFunc>COMO FUNCIONA</TituloSectionFunc>
        <Traco>________</Traco>
 <BoxImage>
@@ -128,7 +134,7 @@ export const Home: React.FC = () => {
       </SectionSolarFuncionamento2> 
 
 
-<SectionSolarCinza> 
+<SectionSolarCinza  data-aos="zoom-in-up"> 
       <TituloSectionF>COMO TRABALHAMOS</TituloSectionF>
        <Traco>_____________</Traco>
     <Box>
@@ -164,7 +170,7 @@ export const Home: React.FC = () => {
   </Box>
       </SectionSolarCinza>
 
-      <SectionServico>
+      <SectionServico data-aos="zoom-in-up">
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>
   <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' descricao='Ao instalar sistemas de energia solar, os proprietários podem reduzir significativamente suas contas de energia, uma vez que geram eletricidade gratuita a partir da luz do sol.'/>
@@ -179,7 +185,7 @@ export const Home: React.FC = () => {
   <SectionQuemSomos/>
 </SectionSolar>
 
-      <SectionSolarCinzaI>
+      <SectionSolarCinzaI data-aos="zoom-in-up">
        <TituloSection> INSTALAÇÕES</TituloSection>
        <Traco>______</Traco>
     <SubTitulo>Conheça algumas das nossas instalações </SubTitulo>

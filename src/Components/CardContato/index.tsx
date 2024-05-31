@@ -17,8 +17,11 @@ function CardContato() {
         <Card.Title>Telefone</Card.Title>
         <Card.Text>(31)9999-8888 </Card.Text>
         <MailIcon color="primary"/>
-        <Card.Title>Email</Card.Title>
-        <Card.Text> enerjuz@yahoo.com </Card.Text>
+        <Card.Title>Email
+       </Card.Title>
+     
+        <Card.Text><a href="mailto:cidamunizz@gmail.com">enerjuz@yahoo.com</a> </Card.Text>
+
         <WhatsAppIcon color="primary"/>
         <Card.Title>WhatsApp</Card.Title>
         <Card.Text><a target="_blank" rel="noreferrer" href="https://wa.me/553199766499">(31)9999-8888 </a></Card.Text>

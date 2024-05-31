@@ -10,6 +10,10 @@ export const Container = styled.div`
     align-items:center;
     z-index:0;
     border-radius:0.5rem;
+
+     a{
+      color:#000;
+    }
    // padding:1rem;
 
     @media (max-width: 768px) {

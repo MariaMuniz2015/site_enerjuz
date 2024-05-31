@@ -26,6 +26,7 @@ export const Empresa: React.FC = () => {
 
            <CardContact>
            <CardImgEquipeEmpresa imagem={equipe} />
+           
            <CardContato/>
 
     </CardContact>
