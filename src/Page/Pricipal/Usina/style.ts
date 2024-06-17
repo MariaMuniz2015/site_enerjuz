@@ -28,6 +28,7 @@ background:#ccc;
 `;
 
 export const SectionB = styled.div`
+
 width:100vw;
 flex-direction:column;
 display:flex;
@@ -36,8 +37,9 @@ align-items:center;
 z-index:0;
 
 @media (max-width: 768px) {
-    height:1500px; 
+    height:800px; 
     margin-bottom:1rem;
+    margin-top:16rem;
 }
 `;
 export const BoxA = styled.div`
@@ -48,6 +50,12 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 font-size:30px;
+@media (max-width: 768px) {
+      width:80vw;
+      margin-top:5rem;
+
+  }
+
 `;
 export const BoxSubtitulo= styled.div`
  width: 60vw;
@@ -106,22 +114,28 @@ margin-bottom:0.4rem;
 
 `;
 export const Box = styled.div`
-width:80vw;
+width:60vw;
 flex-direction:row;
 flex-wrap:wrap;
 display:flex;
 justify-content:center;
 align-items:center;
 z-index:0;
-margin-top:6rem;
-@media (max-width: 768px) {    
+margin-top:1rem;
+@media (max-width: 768px) {   
+    width:99vw; 
     margin-top:1rem;
-    flex-direction:row;
+
+  }
+  @media (max-width: 360px) {   
+    width:99vw; 
+    margin-top:0.2rem;
+
   }
 `;
 
 export const BoxContainer = styled.div`
-    width:100vw;
+    width:90vw;
     flex-direction:row;
     display:flex;
     justify-content:center;
@@ -130,18 +144,21 @@ export const BoxContainer = styled.div`
     margin-bottom:1rem;
     @media (max-width: 768px) {
         flex-direction:column;
-        height:101rem;
+     
     }   
 
 `;
 export const BoxTexto = styled.div`
-    width: 70vw;
+    width: 60vw;
     flex-direction:row;
     display:flex;
     justify-content:flex-start;
     align-items:flex-end;
-    margin-top:4rem;
-
+    margin-top:1rem;
+    background:red;
+    @media (min-width: 360px) {
+        margin-top:-2rem;
+    }
 `;
 
 export const Texto = styled.div`
@@ -150,9 +167,9 @@ export const Texto = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-   font-size:20px;
+   font-size:1.25rem;
 z-index:1;
-
+padding:1rem;
    @media (max-width: 768px) {
       
         width:80vw;
@@ -178,15 +195,21 @@ export const Titulo= styled.div`
 
 `;
 export const ContainerPage = styled.div`
-    width:56vw;
+    width:30vw;
     background-color:#fff;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
-margin-top:0.5rem;
-@media (max-width: 768px) {    
-    width:90vw;
+  margin-top:2rem;
+background:red;
+@media (max-width: 760px) {    
+    width:99vw;
+    margin-top:1rem;
+  }
+@media (min-width: 360px) {    
+    width:99vw;
+    margin-top:1rem;
   }
 `;

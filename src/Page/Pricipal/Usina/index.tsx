@@ -23,15 +23,15 @@ export const Usina: React.FC = () => {
   
       <Container>
             <BoxTitulo titulo="ALUGUEL DE USINA" traco="______________"/>
-<BoxTexto>
-       <Texto>
+
+        <BoxContainer>
+      <ContainerPage>
+         
+   <Box>
+   <Texto>
       Economize todo mês sem investir absolutamente NADA.
       Alugue uma fração de uma usina solar fotovoltaica.
        </Texto>
-       </BoxTexto>
-        <BoxContainer>
-      <ContainerPage>
-   <Box>
 <CardUsina imagem={cofre} descricao="Economia o ano todo"/>
 <CardUsina imagem={carteira} descricao="Redução na conta de energia"/>
 <CardUsina imagem={painel} descricao="Sem instalação sem manutenção"/>
@@ -45,8 +45,7 @@ export const Usina: React.FC = () => {
 
 <SectionB>
 <BoxA>
-
-       <BoxSubtitulo>Exemplo real dos lucros com a energia solar.</BoxSubtitulo>
+<BoxSubtitulo>Exemplo real dos lucros com a energia solar.</BoxSubtitulo>
 <BoxB>
 <ImgAluguel imagem={contaantes} texto="Conta da cemig sem energia solar"/>
 <ImgAluguel imagem={contadepois} texto="Conta da cemig com energia solar"/>
@@ -55,9 +54,9 @@ export const Usina: React.FC = () => {
 </BoxA>
 </SectionB>
 
-<Titulo>Dúvidas frequentes</Titulo>
-   <SectionA>
 
+   <SectionA>
+   <Titulo>Dúvidas frequentes</Titulo>
  <BoxAccordion>
     <BasicExample></BasicExample>
     </BoxAccordion>

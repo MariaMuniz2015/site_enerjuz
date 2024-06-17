@@ -15,7 +15,14 @@ export const Container = styled.div<{ corDeFundo: string }>`
     background: ${(props) => props.corDeFundo};
     @media (max-width: 768px) {    
     width:8rem;
+    margin-left:2rem;
   }
+  @media (max-width: 360px) {    
+    width:7rem;
+    height:140px;
+    margin-left:0.6rem;
+  }
+  
 `;
 
 
@@ -30,6 +37,8 @@ font-size:14px;
     color:#002060;
     @media (max-width: 768px) {    
     font-size:12px;
+    margin:1rem;
+
   }
 `;
 
@@ -47,7 +56,13 @@ width:5rem;
 		-webkit-transform: scale(0.8);
     transform: scale(1.1);
 		}
+
+
     @media (max-width: 768px) {    
-    width: 3.6rem;
+    width: 4rem
+  }
+
+  @media (max-width: 360px) {    
+    width: 3rem;
   }
 `;
