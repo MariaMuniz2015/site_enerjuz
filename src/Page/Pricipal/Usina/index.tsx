@@ -1,5 +1,5 @@
 
-import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,BoxTexto,Box,BoxA, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
+import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,Box,BoxA, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
 import cofre from '../../../Components/Img/iconCofre.png';
 import painel from '../../../Components/Img/iconPainel.png';
 import contaantes from '../../../Components/Img/contaantes.png';

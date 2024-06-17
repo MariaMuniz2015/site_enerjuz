@@ -3,7 +3,7 @@ import { BoxInstalacao } from "../../../Components/BoxInstalacao";
 import { Container} from "./style"
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
-import Gallery from "../../../Components/ImageGaleryAgro";
+
 import GalleryResidencial from "../../../Components/GalleryResidencial";
 
 
