@@ -37,10 +37,14 @@ align-items:center;
 z-index:0;
 
 @media (max-width: 768px) {
-    height:800px; 
-    margin-bottom:1rem;
-    margin-top:16rem;
+    height:500px; 
+    margin-bottom:-8rem;
+    margin-top:22rem;
 }
+@media (max-width: 360px) {   
+    height:300px; 
+    margin-bottom:-18rem;
+  }
 `;
 export const BoxA = styled.div`
 width:90vw;
@@ -52,8 +56,8 @@ align-items:center;
 font-size:30px;
 @media (max-width: 768px) {
       width:80vw;
-      margin-top:5rem;
-
+      margin-top:4rem;
+      height:26.5rem;
   }
 
 `;
@@ -66,16 +70,14 @@ export const BoxSubtitulo= styled.div`
    font-size:1.5rem;
    color:#002060;
    margin-top:2rem;
-   @media (max-width: 768px) {
-      
-        width:80vw;
-        margin-top:-40rem;
 
+   @media (max-width: 768px) {
+    font-size:1.1rem;
+       width:80vw;
+        margin-top:-40rem;
     }
 
 `;
-
-
 
 export const BoxB = styled.div`
 width:90vw;
@@ -86,7 +88,7 @@ justify-content:center;
 align-items:center;
 flex-wrap:wrap;
 margin-left:0;
-background:red;
+
 @media (max-width: 768px) {     
       width:50vw;
       margin-top:-22rem;
@@ -125,7 +127,6 @@ margin-top:1rem;
 @media (max-width: 768px) {   
     width:99vw; 
     margin-top:1rem;
-
   }
   @media (max-width: 360px) {   
     width:99vw; 
@@ -155,7 +156,7 @@ export const BoxTexto = styled.div`
     justify-content:flex-start;
     align-items:flex-end;
     margin-top:1rem;
-    background:red;
+  
     @media (min-width: 360px) {
         margin-top:-2rem;
     }
@@ -167,11 +168,12 @@ export const Texto = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-   font-size:1.25rem;
-z-index:1;
-padding:1rem;
+    font-size:1.25rem;
+    z-index:1;
+     padding:1rem;
+    
    @media (max-width: 768px) {
-      
+    font-size:1rem;
         width:80vw;
     }
 
@@ -187,7 +189,6 @@ export const Titulo= styled.div`
    color:#002060;
    margin-top:2rem;
    @media (max-width: 768px) {
-      
         width:80vw;
         margin-top:-20rem;
 
@@ -203,7 +204,7 @@ export const ContainerPage = styled.div`
     align-items:center;
     z-index:0;
   margin-top:2rem;
-background:red;
+
 @media (max-width: 760px) {    
     width:99vw;
     margin-top:1rem;
