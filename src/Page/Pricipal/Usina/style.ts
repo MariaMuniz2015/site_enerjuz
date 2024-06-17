@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 export const Container = styled.div`
  
     width:100vw;
@@ -14,7 +12,6 @@ export const Container = styled.div`
   
    `;
 export const SectionA = styled.div`
- 
 width:100vw;
 height:800px;
 flex-direction:column;
@@ -30,8 +27,69 @@ background:#ccc;
 }
 `;
 
+export const SectionB = styled.div`
+width:100vw;
+flex-direction:column;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:0;
+
+@media (max-width: 768px) {
+    height:1500px; 
+    margin-bottom:1rem;
+}
+`;
+export const BoxA = styled.div`
+width:90vw;
+height:37.5rem;
+flex-direction:column;
+display:flex;
+justify-content:space-around;
+align-items:center;
+font-size:30px;
+`;
+export const BoxSubtitulo= styled.div`
+ width: 60vw;
+    flex-direction:row;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   font-size:1.5rem;
+   color:#002060;
+   margin-top:2rem;
+   @media (max-width: 768px) {
+      
+        width:80vw;
+        margin-top:-40rem;
+
+    }
+
+`;
+
+
+
+export const BoxB = styled.div`
+width:90vw;
+height:19rem;
+flex-direction:column;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+margin-left:0;
+background:red;
+@media (max-width: 768px) {     
+      width:50vw;
+      margin-top:-22rem;
+      height:39rem;
+      flex-direction:row;
+  }
+
+`;
+
+
 export const BoxAccordion = styled.div`
- 
 width:80vw;
 flex-direction:row;
 flex-wrap:wrap;
@@ -41,17 +99,13 @@ align-items:center;
 z-index:0;
 margin-top:6rem;
 margin-bottom:2rem;
-
-@media (max-width: 768px) {
-      
+@media (max-width: 768px) {    
     margin-top:1rem;
 margin-bottom:0.4rem;
   }
 
-
 `;
 export const Box = styled.div`
- 
 width:80vw;
 flex-direction:row;
 flex-wrap:wrap;
@@ -60,17 +114,19 @@ justify-content:center;
 align-items:center;
 z-index:0;
 margin-top:6rem;
-
+@media (max-width: 768px) {    
+    margin-top:1rem;
+    flex-direction:row;
+  }
 `;
+
 export const BoxContainer = styled.div`
- 
     width:100vw;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
- 
     margin-bottom:1rem;
     @media (max-width: 768px) {
         flex-direction:column;
@@ -79,7 +135,6 @@ export const BoxContainer = styled.div`
 
 `;
 export const BoxTexto = styled.div`
- 
     width: 70vw;
     flex-direction:row;
     display:flex;
@@ -90,7 +145,6 @@ export const BoxTexto = styled.div`
 `;
 
 export const Texto = styled.div`
- 
     width: 50vw;
     flex-direction:row;
     display:flex;
@@ -107,13 +161,12 @@ z-index:1;
 `;
 
 export const Titulo= styled.div`
- 
     width: 60vw;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
-   font-size:28px;
+   font-size:1.5rem;
    color:#002060;
    margin-top:2rem;
    @media (max-width: 768px) {
@@ -125,15 +178,15 @@ export const Titulo= styled.div`
 
 `;
 export const ContainerPage = styled.div`
- 
     width:56vw;
-  
     background-color:#fff;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
- 
 margin-top:0.5rem;
+@media (max-width: 768px) {    
+    width:90vw;
+  }
 `;

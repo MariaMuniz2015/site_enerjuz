@@ -38,3 +38,18 @@ export const ContainerPage = styled.div`
     z-index:0;
 
 `;
+
+export const ContainerSlider = styled.div`
+ 
+    width:90vw;
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:0;
+    margin-top:1rem;
+    @media (min-width: 765px) {
+
+   
+    }
+   `;

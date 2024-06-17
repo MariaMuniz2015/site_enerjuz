@@ -9,7 +9,7 @@ export const Container = styled.div`
     justify-content:center;
     align-items:center;
     z-index:0;
-    margin-top:7rem;
+    margin-top:5rem;
   
    `;
 export const BoxContainer = styled.div`

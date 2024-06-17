@@ -2,15 +2,13 @@
 import { BoxPage } from "../../../Components/BoxPage";
 import{BoxContainer, Container, ContainerPage} from "./style";
 import imgAgro from '../../../Components/Img/imgAgro.png';
-import agro3icone from '../../../Components/Img/agro3icone.png';
-import agro2icone from '../../../Components/Img/agro2icone.png';
-import agro4icone from '../../../Components/Img/agro4icone.png';
-import agroicone from '../../../Components/Img/agroicone.png';
+
 import { CardOrcamento } from "../../../Components/CardOrcamento";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
-//import { Footer } from "../../../Components/Footer";
+import GalleryAgro from "../../../Components/ImageGaleryAgro";
+
 
 
 
@@ -21,15 +19,10 @@ export const Agro: React.FC = () => {
       <BoxContainer>
     <ContainerPage>
   <BoxPage  imagem={imgAgro}
-  texto="Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos
-   nossos cliente a solução pra economizar, praticar a sustentabilidade e gerar energia limpa. 
-   Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a "
-
-  icone1={agroicone}
-  icone2={agro2icone}
-  icone3={agro3icone}
-  icone4={agro4icone}
-  titulo="Instalação Enerjuz ©"
+  texto="A energia solar pode desempenhar um papel importante na melhoria da eficiência, sustentabilidade e rentabilidade das operações 
+  agrícolas, tornando-se uma escolha cada vez mais atraente para os agricultores em todo o mundo. O setor agropecuário é intensivo em energia,
+   com necessidades que vão desde o bombeamento de água até o funcionamento de equipamentos de processamento e refrigeração. A energia solar pode reduzir significativamente os custos de energia para os agricultores e pecuaristas,
+   especialmente em áreas onde a eletricidade da rede é cara ou não está disponível."
 
   />
  
@@ -37,7 +30,10 @@ export const Agro: React.FC = () => {
     
     
   <CardOrcamento/>
+
  </BoxContainer>
+
+ <GalleryAgro/>
  <Footer></Footer>
     </Container>
   )

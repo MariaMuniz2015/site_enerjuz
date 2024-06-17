@@ -12,8 +12,10 @@ export const Container = styled.div<{ corDeFundo: string }>`
     margin-bottom:1rem;
     margin-left:3rem;
     border-radius:8px;
- 
     background: ${(props) => props.corDeFundo};
+    @media (max-width: 768px) {    
+    width:8rem;
+  }
 `;
 
 
@@ -26,6 +28,9 @@ font-size:14px;
     margin:1.4rem;
     font-weight:500;
     color:#002060;
+    @media (max-width: 768px) {    
+    font-size:12px;
+  }
 `;
 
 
@@ -42,4 +47,7 @@ width:5rem;
 		-webkit-transform: scale(0.8);
     transform: scale(1.1);
 		}
+    @media (max-width: 768px) {    
+    width: 3.6rem;
+  }
 `;

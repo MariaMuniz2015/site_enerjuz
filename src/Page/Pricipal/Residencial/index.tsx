@@ -1,14 +1,11 @@
 import { BoxPage } from "../../../Components/BoxPage";
 import{BoxContainer, Container, ContainerPage,} from "./style";
 import imgResidencial from '../../../Components/Img/residencial1.png';
-import residencial2ricone from '../../../Components/Img/residencial2jicone.png';
-import residencial3icone from '../../../Components/Img/residencial3bicone.png';
-import residencial1icone from '../../../Components/Img/residencial1icone.png';
-import residencial4icone from '../../../Components/Img/residencial4Icone.png';
 import { CardOrcamento } from "../../../Components/CardOrcamento";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
+import GalleryResidencial from "../../../Components/GalleryResidencial";
 
 
 
@@ -20,20 +17,19 @@ export const Residencial: React.FC = () => {
    <BoxContainer>
     <ContainerPage>
   <BoxPage  imagem={imgResidencial}
-  texto="Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos
-   nossos cliente a solução pra economizar, praticar a sustentabilidade e gerar energia limpa. 
-   Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a "
- 
-  icone1={residencial2ricone}
-  icone2={residencial1icone}
-  icone3={residencial3icone}
-  icone4={residencial4icone}
-  titulo="Instalação Enerjuz ©"
+  texto="A energia solar residencial oferece uma série de benefícios econômicos, ambientais e 
+  sociais, tornando-se uma escolha atraente para muitos proprietários de residências que desejam 
+  economizar dinheiro, reduzir sua pegada de carbono e aumentar o valor de suas propriedades. 
+  Embora o investimento inicial para instalar um sistema de energia solar em uma residência possa ser significativo, a economia a longo prazo é notável. Uma vez instalado, 
+  um sistema solar pode reduzir drasticamente ou até mesmo eliminar completamente a conta de energia elétrica mensal, 
+  resultando em economias substanciais ao longo dos anos. "
+
   />
     </ContainerPage>
     
   <CardOrcamento></CardOrcamento>
  </BoxContainer>
+ <GalleryResidencial/>
  <Footer></Footer>
     </Container>
   )

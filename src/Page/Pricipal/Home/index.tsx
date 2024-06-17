@@ -23,6 +23,7 @@ import residencialIcone from '../../../Components/Img/residencial2jicone.png';
 import imgResidencial from '../../../Components/Img/residencial1.png';
 import comercial1 from '../../../Components/Img/comercial1.png';
 import imgAgro from '../../../Components/Img/imgAgro.png';
+import imgUsina1 from '../../../Components/Img/imgUsina1.jpg';
 //import Agro from '../../../Components/Img/agro1.png';
 import pesquisa1 from '../../../Components/Img/pesquisa1.png';
 import proposta from '../../../Components/Img/proposta.png';
@@ -173,9 +174,9 @@ export const Home: React.FC = () => {
       <SectionServico data-aos="zoom-in-up">
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>
-  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' descricao='Ao instalar sistemas de energia solar, os proprietários podem reduzir significativamente suas contas de energia, uma vez que geram eletricidade gratuita a partir da luz do sol.'/>
-  <CardServico link='/agro' imagem={agroIcone} titulo='Agro' descricao='A energia solar pode ser usada em locais remotos onde a eletricidade da rede não está disponível, como em áreas rurais ou em sistemas de energia para bombeamento de água, comunicações e iluminação.'/>
-  <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'descricao=' Ao adotar a energia solar, os indivíduos e empresas contribuem para a redução das emissões de carbono e para a transição global para fontes de energia mais limpas e sustentáveis.'/>
+  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' descricao='A energia solar residencial oferece uma série de benefícios econômicos, ambientais e sociais, tornando-se uma escolha atraente para muitos proprietários de residências que ...'/>
+  <CardServico link='/agro' imagem={agroIcone} titulo='Agro' descricao='A energia solar pode desempenhar um papel importante na melhoria da eficiência, sustentabilidade e rentabilidade das operações agrícolas, tornando-se uma escolha cada vez mais atraente para os agricultores ...'/>
+  <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'descricao='A energia solar oferece uma variedade de benefícios para empresas comerciais, incluindo economia de custos, responsabilidade ambiental, independência energética e valoriza o imóvel.'/>
   </BoxServico>
       </SectionServico>
 
@@ -192,10 +193,10 @@ export const Home: React.FC = () => {
     <Box>
   <Slider settings={settings}>
 
-  <SwiperSlide><a href="/InstaComercial"><CardInstalacao titulo="Agro" imagem={imgAgro} /></a></SwiperSlide>   
-  <SwiperSlide><a href="/InstaComercial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></a></SwiperSlide>
-  <SwiperSlide><a href="/InstaComercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></a></SwiperSlide>
-  <SwiperSlide><a href="/InstaComercial"><CardInstalacao titulo="Usina" imagem={comercial1} /></a></SwiperSlide>
+  <SwiperSlide><a href="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></a></SwiperSlide>   
+  <SwiperSlide><a href="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></a></SwiperSlide>
+  <SwiperSlide><a href="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></a></SwiperSlide>
+  <SwiperSlide><a href="/Usina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></a></SwiperSlide>
 
   </Slider>
   </Box>

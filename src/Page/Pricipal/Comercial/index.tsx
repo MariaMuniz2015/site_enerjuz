@@ -1,13 +1,13 @@
 import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage,} from "./style";
+import{BoxContainer, Container, ContainerPage,ContainerSlider} from "./style";
 import comercial1 from '../../../Components/Img/comercial1.png';
-import comercial3icone from '../../../Components/Img/comercial3icone.png';
-import comercial2icone from '../../../Components/Img/comercial2ricone.png';
-import comercial1icone from '../../../Components/Img/comercial1icone.png';
+
 import { CardOrcamento } from "../../../Components/CardOrcamento";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
+
+import GalleryComercial from "../../../Components/GalleryComercial";
 //import { Footer } from "../../../Components/Footer";
 
 
@@ -19,21 +19,23 @@ export const Comercial: React.FC = () => {
       <BoxContainer>
     <ContainerPage>
   <BoxPage  imagem={comercial1}
-  texto="Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos
-   nossos cliente a solução pra economizar, praticar a sustentabilidade e gerar energia limpa. 
-   Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a "
- 
-  icone1={comercial1icone}
-  icone2={comercial3icone}
-  icone3={comercial2icone}
-  icone4={comercial3icone}
-  titulo="Instalação Enerjuz ©"
+  texto="A energia solar oferece uma variedade de benefícios para empresas comerciais,
+   incluindo economia de custos, responsabilidade ambiental, independência energética e valoriza o imóvel. 
+   Ter um sistema solar instalado pode fornecer às empresas uma fonte de energia independente em caso de falha na rede elétrica. Isso pode ser 
+   crucial para manter as operações comerciais durante quedas de energia ou interrupções prolongadas. Além disso em muitas regiões, há incentivos 
+   fiscais e subsídios disponíveis para empresas que investem em energia solar."
+
   />
     </ContainerPage>
     
   <CardOrcamento></CardOrcamento>
  </BoxContainer>
+<ContainerSlider><GalleryComercial/></ContainerSlider>
+ 
+
+
  <Footer></Footer>
+
     </Container>
   )
 }
