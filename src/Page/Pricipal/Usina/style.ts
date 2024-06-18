@@ -42,8 +42,8 @@ z-index:0;
     margin-top:22rem;
 }
 @media (max-width: 360px) {   
-    height:300px; 
-    margin-bottom:-18rem;
+    height:440px; 
+    margin-bottom:-6rem;
   }
 `;
 export const BoxA = styled.div`
@@ -56,7 +56,7 @@ align-items:center;
 font-size:30px;
 @media (max-width: 768px) {
       width:80vw;
-      margin-top:4rem;
+      margin-top:9rem;
       height:26.5rem;
   }
 
@@ -74,7 +74,8 @@ export const BoxSubtitulo= styled.div`
    @media (max-width: 768px) {
     font-size:1.1rem;
        width:80vw;
-        margin-top:-40rem;
+        margin-top:-38rem;
+        margin-bottom:-4rem;
     }
 
 `;
@@ -91,7 +92,7 @@ margin-left:0;
 
 @media (max-width: 768px) {     
       width:50vw;
-      margin-top:-22rem;
+      margin-top:-10rem;
       height:39rem;
       flex-direction:row;
   }

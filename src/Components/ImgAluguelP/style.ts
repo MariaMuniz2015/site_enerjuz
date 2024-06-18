@@ -25,6 +25,7 @@ export const Texto = styled.div`
         margin: 0;
         width:80vw;
         margin-top:1rem;
+        height:4rem;
     }
 
     `;

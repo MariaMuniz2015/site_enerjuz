@@ -1,6 +1,9 @@
 
 import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,Box,BoxA, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
 import cofre from '../../../Components/Img/iconCofre.png';
+import sol from '../../../Components/Img/iconsol.png';
+import dinheiro from '../../../Components/Img/icondinheiro.png';
+import calendar from '../../../Components/Img/iconcalendar.png';
 import painel from '../../../Components/Img/iconPainel.png';
 import contaantes from '../../../Components/Img/contaantes.png';
 import contadepois from '../../../Components/Img/contadepois.png';
@@ -35,9 +38,9 @@ export const Usina: React.FC = () => {
 <CardUsina imagem={cofre} descricao="Economia o ano todo"/>
 <CardUsina imagem={carteira} descricao="Redução na conta de energia"/>
 <CardUsina imagem={painel} descricao="Sem instalação sem manutenção"/>
-<CardUsina imagem={carteira} descricao="Sem investimento ou taxas"/>
-<CardUsina imagem={cofre} descricao="Economia o ano todo"/>
-<CardUsina imagem={painel} descricao="Energia sustentável"/>
+<CardUsina imagem={dinheiro} descricao="Sem investimento ou taxas"/>
+<CardUsina imagem={calendar} descricao="Economia o ano todo"/>
+<CardUsina imagem={sol} descricao="Energia sustentável"/>
    </Box>
       </ContainerPage>
     <CardOrcamentoUsina/>
