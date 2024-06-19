@@ -30,7 +30,9 @@ export const Comercial: React.FC = () => {
     
   <CardOrcamento></CardOrcamento>
  </BoxContainer>
-<BoxSlider><GalleryComercial/></BoxSlider>
+<BoxSlider>
+  <GalleryComercial/>
+  </BoxSlider>
  
 
 

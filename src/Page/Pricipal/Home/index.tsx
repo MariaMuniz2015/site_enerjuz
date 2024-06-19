@@ -196,7 +196,7 @@ export const Home: React.FC = () => {
   <SwiperSlide><Link to="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></Link></SwiperSlide>   
   <SwiperSlide><Link to="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></Link></SwiperSlide>
   <SwiperSlide><Link to="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></Link></SwiperSlide>
-  <SwiperSlide><Link to="/Usina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></Link></SwiperSlide>
+  <SwiperSlide><Link to="/InstaUsina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></Link></SwiperSlide>
 
   </Slider>
   </Box>
