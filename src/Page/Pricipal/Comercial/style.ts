@@ -39,17 +39,21 @@ export const ContainerPage = styled.div`
 
 `;
 
-export const ContainerSlider = styled.div`
- 
-    width:90vw;
-    flex-direction:column;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    z-index:0;
-    margin-top:1rem;
-    @media (min-width: 765px) {
 
-   
-    }
-   `;
+
+export const BoxSlider = styled.div`
+ 
+width:100vw;
+flex-direction:row;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:0;
+
+@media (max-width: 768px) {
+    width:90vw;
+   margin-top:-300px;
+  margin-bottom:360px;
+
+}
+`;

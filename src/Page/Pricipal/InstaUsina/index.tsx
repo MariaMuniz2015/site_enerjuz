@@ -1,6 +1,6 @@
 
 import { BoxInstalacao } from "../../../Components/BoxInstalacao";
-import { Container} from "./style";
+import { BoxSlider, Container} from "./style";
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
 import GalleryUsina from "../../../Components/GalleryUsina";
@@ -17,7 +17,9 @@ ela gera um fluxo de elétrons, criando uma corrente elétrica.
 Essas usinas são compostas por painéis solares, que consistem em múltiplas células fotovoltaicas agrupadas para gerar energia em larga escala. A eletricidade produzida pode ser usada diretamente ou armazenada em baterias para uso posterior.
 As usinas fotovoltaicas são uma fonte de energia limpa e renovável, contribuindo para reduzir a dependência de combustíveis fósseis e diminuir as emissões de gases de efeito estufa, ajudando assim na luta contra as mudanças climáticas.."
 />
+<BoxSlider>
  <GalleryUsina/>
+ </BoxSlider>
 <Footer></Footer>
     </Container>
   );

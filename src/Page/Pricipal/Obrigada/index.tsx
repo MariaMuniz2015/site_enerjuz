@@ -1,6 +1,6 @@
 import {Container, Texto, TextoA} from "./style";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-
+import { Link } from "react-router-dom";
 export const Obrigada: React.FC = () => {
 
   return(
@@ -11,8 +11,8 @@ export const Obrigada: React.FC = () => {
     <Texto>
     Responderemos sua mensagem o mais rápido possível!
   </Texto>
-  <a href="/contato">
-   <ArrowBackIosNewIcon color="warning"/>Contato</a>
+  <Link to="/contato">
+   <ArrowBackIosNewIcon color="warning"/>Contato</Link>
  </Container>
 
   

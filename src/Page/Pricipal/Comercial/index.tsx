@@ -1,5 +1,5 @@
 import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage,ContainerSlider} from "./style";
+import{BoxContainer, Container, ContainerPage,BoxSlider} from "./style";
 import comercial1 from '../../../Components/Img/comercial1.png';
 
 import { CardOrcamento } from "../../../Components/CardOrcamento";
@@ -30,7 +30,7 @@ export const Comercial: React.FC = () => {
     
   <CardOrcamento></CardOrcamento>
  </BoxContainer>
-<ContainerSlider><GalleryComercial/></ContainerSlider>
+<BoxSlider><GalleryComercial/></BoxSlider>
  
 
 
