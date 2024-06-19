@@ -1,9 +1,10 @@
 
 import { BoxInstalacao } from "../../../Components/BoxInstalacao";
-import { Container} from "./style";
+import { Container, BoxSlider} from "./style";
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
 import GalleryAgro from "../../../Components/ImageGaleryAgro";
+
 
 
 
@@ -20,7 +21,11 @@ export const InstaAgro: React.FC = () => {
        Em suma, a energia solar pode desempenhar um papel importante na melhoria da eficiência, sustentabilidade e rentabilidade das operações 
        agrícolas, tornando-se uma escolha cada vez mais atraente para os agricultores em todo o mundo."
 />
+
+<BoxSlider>
 <GalleryAgro/>
+</BoxSlider>
+
 <Footer></Footer>
     </Container>
   );

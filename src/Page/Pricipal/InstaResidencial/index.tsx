@@ -1,6 +1,6 @@
 
 import { BoxInstalacao } from "../../../Components/BoxInstalacao";
-import { Container} from "./style"
+import { Container,BoxSlider} from "./style"
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
 
@@ -21,8 +21,9 @@ export const InstaResidencial: React.FC = () => {
 
        />
 
-
+<BoxSlider>
 <GalleryResidencial/>
+</BoxSlider>
 
 <Footer></Footer>
     </Container>

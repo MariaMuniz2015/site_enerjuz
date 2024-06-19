@@ -12,7 +12,7 @@ export const Container = styled.div`
     z-index:0;
     @media (max-width: 768px) {
     
-       margin-top:8rem;
+       margin-top:8.6rem;
   
 
     }

@@ -1,6 +1,6 @@
 
 import { BoxInstalacao } from "../../../Components/BoxInstalacao";
-import { Container} from "./style";
+import { Container, BoxSlider} from "./style";
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
 import GalleryComercial from "../../../Components/GalleryComercial";
@@ -21,7 +21,11 @@ uma vez que a luz solar é gratuita e abundante. Isso permite que as empresas pr
  variedade de benefícios para empresas comerciais, incluindo economia de custos, responsabilidade ambiental, independência energética e valorização imobiliária, 
  tornando-se uma escolha atraente para muitos proprietários e gestores de empresas."
 />
-      <GalleryComercial/>
+
+<BoxSlider>
+<GalleryComercial/>
+</BoxSlider>
+    
 <Footer></Footer>
     </Container>
   );
