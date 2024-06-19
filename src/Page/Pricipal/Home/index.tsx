@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import {CardInstalacao} from "../../../Components/CardInstalacao";
 import { ButtonCustomer } from '../../../Components/ButtonCustomer';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { Link } from "react-router-dom";
 import { Container, Section, Box, TituloSection,TituloSectionF,SubTitulo,SectionServico,  SectionSolar, SectionSolarCinza, SectionSolarCinzaI, Traco, BoxImage, SectionSolarFuncionamento, TituloSectionFunc, SectionSolarFuncionamento2, BoxServico, Mobile, MSlider, SectionMobile, TituloSectionFuncB} from './style';
 import { TextTituloSection } from '../../../Components/TextTituloSection';
 import { SectionQuemSomos } from '../../../Components/SectionQuemSomos';
@@ -193,7 +193,7 @@ export const Home: React.FC = () => {
     <Box>
   <Slider settings={settings}>
 
-  <SwiperSlide><a href="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></a></SwiperSlide>   
+  <SwiperSlide><Link to="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></Link></SwiperSlide>   
   <SwiperSlide><a href="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></a></SwiperSlide>
   <SwiperSlide><a href="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></a></SwiperSlide>
   <SwiperSlide><a href="/Usina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></a></SwiperSlide>
