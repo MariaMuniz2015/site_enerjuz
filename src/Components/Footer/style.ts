@@ -102,7 +102,7 @@ background:#172554;
 `;
 
 export const Rodape = styled.div`
-width:100vw;
+width:98vw;
 height:4rem;
 flex-wrap:wrap;
 display:flex;

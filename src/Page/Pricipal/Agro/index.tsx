@@ -1,6 +1,6 @@
 
 import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage} from "./style";
+import{BoxContainer, BoxSlider, Container, ContainerPage} from "./style";
 import imgAgro from '../../../Components/Img/imgAgro.png';
 
 import { CardOrcamento } from "../../../Components/CardOrcamento";
@@ -32,8 +32,9 @@ export const Agro: React.FC = () => {
   <CardOrcamento/>
 
  </BoxContainer>
-
+<BoxSlider>
  <GalleryAgro/>
+ </BoxSlider>
  <Footer></Footer>
     </Container>
   )

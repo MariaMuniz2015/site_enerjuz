@@ -11,7 +11,7 @@ background-image:url("fundo3.png");
    display:flex;
    flex-wrap:wrap;
    width:90vw;
-   @media (max-width: 768px) {
+   @media (max-width: 900px) {
     flex-direction: column;
     background-image:none;
     margin-bottom:0.2rem;
@@ -34,7 +34,7 @@ export const ColumnPage= styled.div`
     justify-content:center;
     align-items:center;
 margin-bottom:4rem;
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     flex-direction: column;
     justify-content:flex-start;
     align-items:start;
