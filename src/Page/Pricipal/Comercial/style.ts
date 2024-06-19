@@ -51,7 +51,7 @@ align-items:center;
 z-index:0;
 
 @media (max-width: 768px) {
-    width:90vw;
+    width:98vw;
    margin-top:-300px;
   margin-bottom:360px;
 
