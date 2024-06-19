@@ -1,5 +1,6 @@
 import logo from "../Img/logoTransparent.png";
 import { LogoFooter } from "../LogoFooter";
+import { Link } from "react-router-dom";
 import {Container,Box, Column, ContainerPage, LinkFooter,Rodape, ColumnRodape} from "./style";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailIcon from '@mui/icons-material/Mail';
@@ -22,39 +23,39 @@ export const Footer: React.FC = () => {
          INSTITUCIONAL
 
          <LinkFooter>
-           <a href="/">Home</a>
+           <Link to="/">Home</Link>
          </LinkFooter>
 
       <LinkFooter>
-       <a href="/empresa">Sobre</a>
+       <Link to="/empresa">Sobre</Link>
       </LinkFooter>
 
 
 <LinkFooter>
-<a href="/instalacoes">Instalações</a>
+<Link to="/instalacoes">Instalações</Link>
 </LinkFooter>
 
 <LinkFooter>
-<a href="/contato">Contato</a>
+<Link to="/contato">Contato</Link>
 </LinkFooter>
 </Column>
 
 <Column>
 SERVIÇOS
 <LinkFooter>
-<a href="/Comercial">Comercial</a>
+<Link to="/Comercial">Comercial</Link>
 </LinkFooter>
 
 <LinkFooter>
-<a href="/agro">Agro</a>
+<Link to="/agro">Agro</Link>
 </LinkFooter>
 
 <LinkFooter>
-<a href="/residencial">Residencial</a>
+<Link to="/residencial">Residencial</Link>
 </LinkFooter>
 
 <LinkFooter>
-<a href="/usina">Usina</a>
+<Link to="/usina">Usina</Link>
 </LinkFooter>
 
 </Column>
