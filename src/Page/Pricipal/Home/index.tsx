@@ -194,9 +194,9 @@ export const Home: React.FC = () => {
   <Slider settings={settings}>
 
   <SwiperSlide><Link to="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></Link></SwiperSlide>   
-  <SwiperSlide><a href="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></a></SwiperSlide>
-  <SwiperSlide><a href="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></a></SwiperSlide>
-  <SwiperSlide><a href="/Usina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></a></SwiperSlide>
+  <SwiperSlide><Link to="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></Link></SwiperSlide>
+  <SwiperSlide><Link to="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></Link></SwiperSlide>
+  <SwiperSlide><Link to="/Usina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></Link></SwiperSlide>
 
   </Slider>
   </Box>
