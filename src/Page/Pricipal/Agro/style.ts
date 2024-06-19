@@ -55,7 +55,7 @@ export const BoxSlider = styled.div`
     z-index:0;
   
     @media (max-width: 768px) {
-        width:94vw;
+        width:90vw;
        margin-top:-300px;
       margin-bottom:360px;
 
