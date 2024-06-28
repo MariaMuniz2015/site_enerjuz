@@ -65,8 +65,8 @@ export const CardOrcamento: React.FC = () => {
             <input
               type="hidden"
               name="_next"
-          
-              value="https://enerjuz.netlify.app/obrigada"
+            
+              value="http://localhost:300/obrigada"
             />
             <input className={style.button} type="submit" value="ENVIAR" />
           </form>
