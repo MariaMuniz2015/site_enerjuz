@@ -57,7 +57,7 @@ export function Contato() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/obrigada"
+            value="https://enerjuz.netlify.app/obrigada"
           />
           <input className={style.button} type="submit" value="Enviar" />
         </form>
