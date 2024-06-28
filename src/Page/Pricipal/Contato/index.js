@@ -54,11 +54,7 @@ export function Contato() {
             name="message"
             required
           />
-          <input
-            type="hidden"
-            name="_next"
-            value="http://localhost:300/obrigada"
-          />
+          <input type="hidden" name="_next" value="navigate(/obrigada)" />
           <input className={style.button} type="submit" value="Enviar" />
         </form>
       </div>
