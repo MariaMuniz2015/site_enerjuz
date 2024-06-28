@@ -20,7 +20,7 @@ export const Menu: React.FC = () => {
 
         <StyledLi>
        <StyledA>
-         <Link to="/obrigado">Obrigada</Link> 
+         <Link to="/obrigada">Obrigada</Link> 
          </StyledA>
         </StyledLi>
 
@@ -32,9 +32,9 @@ export const Menu: React.FC = () => {
           </Dropbtn>
           <DropDownContent>
             
-            <SubA> <a href="/agro">Agro</a></SubA>
-            <SubA><a href="/Comercial">Comercial</a></SubA>
-            <SubA><a href="/Residencial">Residencial</a></SubA>
+            <SubA> <Link to="/agro">Agro</Link></SubA>
+            <SubA><Link to="/Comercial">Comercial</Link></SubA>
+            <SubA><Link to="/Residencial">Residencial</Link></SubA>
            
             </DropDownContent>
         </DropDownLi>
