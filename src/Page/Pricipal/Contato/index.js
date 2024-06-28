@@ -37,6 +37,7 @@ export function Contato() {
             type="text"
             name="name"
             placeholder="Digite seu nome"
+            required
           />
           <label>Email:</label>
           <input
@@ -44,12 +45,14 @@ export function Contato() {
             type="email"
             name="email"
             placeholder="Digite seu email"
+            required
           />
           <label>Menssagem:</label>
           <textarea
             className={style.textarea}
             placeholder="Digite sua mensagem..."
             name="message"
+            required
           />
           <input
             type="hidden"

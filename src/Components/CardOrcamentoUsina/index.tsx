@@ -24,12 +24,14 @@ export const CardOrcamentoUsina: React.FC = () => {
             type="text"
             name="nome"
             placeholder="Nome"
+            required
           />
               <input
             className={style.input}
             type="email"
             name="email"
             placeholder="Email"
+            required
           />
 
       <input
@@ -37,24 +39,28 @@ export const CardOrcamentoUsina: React.FC = () => {
             type="number"
             name="telefone"
             placeholder="Telefone"
+            required
           />
                <input
             className={style.input}
             type="text"
             name="estado"
             placeholder="Estado"
+            required
           />
               <input
             className={style.input}
             type="text"
             name="cidade"
             placeholder="Cidade"
+            required
           />
                  <input
             className={style.input}
             type="number"
             name="energia"
             placeholder="Conta de energia"
+            required
           />
         
           <input
