@@ -26,13 +26,13 @@ const Menu = () => (
 
           <ul>
             <li>
-              <a href="/agro">Agro</a>
+              <Link to="/agro">Agro</Link>
             </li>
             <li>
-              <a href="/Comercial">Comercial</a>
+              <Link to="/Comercial">Comercial</Link>
             </li>
             <li>
-              <a href="/residencial">Residencial</a>
+              <Link to="/residencial">Residencial</Link>
             </li>
           </ul>
         </li>
