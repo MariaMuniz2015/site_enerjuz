@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import CardEndereco from "../../../Components/CardEndereco";
 
@@ -54,7 +54,12 @@ export function Contato() {
             name="message"
             required
           />
-          <input type="hidden" name="_next" value="navigate(/obrigada)" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://enerjuz.netlify.app/empresa"
+          />
+
           <input className={style.button} type="submit" value="Enviar" />
         </form>
       </div>
