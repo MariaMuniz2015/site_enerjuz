@@ -6,6 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import CallIcon from "@mui/icons-material/Call";
 import logo from "../Img/logoTransparent.png";
+
 import "./header.css";
 
 const Menu = () => (
@@ -18,27 +19,11 @@ const Menu = () => (
         <li>
           <Link to="/empresa">Empresa</Link>
         </li>
-        <li>
-          <a href="#">
-            Serviços
-            <i class="fa fa-caret-down"></i>
-          </a>
 
-          <ul>
-            <li>
-              <Link to="/agro">Agro</Link>
-            </li>
-            <li>
-              <Link to="/Comercial">Comercial</Link>
-            </li>
-            <li>
-              <Link to="/residencial">Residencial</Link>
-            </li>
-          </ul>
-        </li>
         <li>
           <Link to="/instalacoes">Instalações</Link>
         </li>
+
         <li>
           <Link to="/usina">Alugue</Link>
         </li>

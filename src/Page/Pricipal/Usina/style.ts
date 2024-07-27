@@ -28,7 +28,8 @@ background:#ccc;
 `;
 
 export const SectionB = styled.div`
-
+max-width:1200px;
+box-sizing: border-box;
 width:100vw;
 flex-direction:column;
 display:flex;
@@ -36,10 +37,11 @@ justify-content:center;
 align-items:center;
 z-index:0;
 
+
 @media (max-width: 768px) {
-    height:500px; 
-    margin-bottom:-8rem;
-    margin-top:22rem;
+    height:1300px; 
+    margin-bottom:2rem;
+
 }
 @media (max-width: 360px) {   
     height:440px; 
@@ -48,29 +50,29 @@ z-index:0;
 `;
 export const BoxA = styled.div`
 width:90vw;
-height:37.5rem;
+height:37rem;
 flex-direction:column;
 display:flex;
 justify-content:space-around;
-align-items:center;
+align-items:flex-start;
 font-size:30px;
 @media (max-width: 768px) {
       width:80vw;
-      margin-top:9rem;
+      margin-top:2rem;
       height:26.5rem;
   }
 
 `;
 export const BoxSubtitulo= styled.div`
- width: 60vw;
+ width: 90vw;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
    font-size:1.5rem;
-   color:#002060;
-   margin-top:2rem;
-
+   color:#fff;
+   margin-top:1.6rem;
+background:#002060;
    @media (max-width: 768px) {
     font-size:1.1rem;
        width:80vw;
@@ -81,14 +83,14 @@ export const BoxSubtitulo= styled.div`
 `;
 
 export const BoxB = styled.div`
-width:90vw;
-height:19rem;
+
+width:58vw;
+height:30rem;
 flex-direction:column;
 display:flex;
-justify-content:center;
-align-items:center;
+justify-content:flex-start;
+align-items:flex-start;
 flex-wrap:wrap;
-margin-left:0;
 
 @media (max-width: 768px) {     
       width:50vw;
@@ -98,7 +100,25 @@ margin-left:0;
   }
 
 `;
+export const BoxC = styled.div`
 
+width:30vw;
+height:14rem;
+flex-direction:row;
+display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-wrap:wrap;
+margin-left:0;
+
+@media (max-width: 768px) {     
+      width:50vw;
+      margin-top:1rem;
+      height:29rem;
+      flex-direction:row;
+  }
+
+`;
 
 export const BoxAccordion = styled.div`
 width:80vw;

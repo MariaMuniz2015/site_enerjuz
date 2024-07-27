@@ -11,7 +11,7 @@ import { Home } from "./Home";
 import { Empresa } from './Empresa';
 import { Instalacoes } from './Instalacoes';
 import { Servico} from './Servico';
-import { Usina} from './Usina';
+import { UsinaAluguel} from './Usina';
 import { Contato} from './Contato';
 
 import { Agro} from './Agro';
@@ -37,7 +37,7 @@ export const Principal: React.FC = () => {
         <Route path='/empresa' element={<Empresa />} />
         <Route path='/servico' element={<Servico />} />
         <Route path='/instalacoes' element={<Instalacoes />} />
-        <Route path='/usina' element={<Usina/>} />
+        <Route path='/usina' element={<UsinaAluguel/>} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/agro' element={<Agro/>} />
         <Route path='/comercial' element={<Comercial/>} />

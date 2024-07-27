@@ -14,7 +14,14 @@ function Animate() {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src="img002.png" alt="Imagem Two" />
+          <img
+            className="d-block w-100"
+            src="imgusina.png"
+            alt="Imagem usina"
+            backgroundPosition="center"
+            backgroundSize="cover"
+            height="100%"
+          />
           <div>
             <Carousel.Caption>
               <h1>Somos a Enerjuz</h1>
@@ -38,7 +45,15 @@ function Animate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="img004.png" alt="Imagem Tree" />
+          <img
+            className="d-block w-100"
+            position="absolute"
+            src="img004.png"
+            alt="Imagem tres"
+            backgroundPosition="center"
+            backgroundSize="cover"
+            height="100%"
+          />
           <Carousel.Caption>
             <h1 style={{ fontFamily: "Poppins", animation: "fadeIn 5s" }}>
               Enquanto o sol brilha você economiza!
@@ -61,7 +76,14 @@ function Animate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="img001.png" alt="Imagem One" />
+          <img
+            className="d-block w-100"
+            src="capa01.png"
+            alt="Imagem um"
+            backgroundPosition="center"
+            backgroundSize="cover"
+            height="100%"
+          />
           <Carousel.Caption>
             <h1 style={{ fontFamily: "Poppins", animation: "fadeIn 5s" }}>
               Economize sem investir.

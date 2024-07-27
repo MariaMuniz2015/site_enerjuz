@@ -15,14 +15,6 @@ import usina1 from '../../../Components/Img/imgUsina1.jpg';
 
 
 
-
-
-
-
-
-
-
-
 export const Instalacoes: React.FC = () => {
   return (
     <Container>
@@ -36,13 +28,15 @@ export const Instalacoes: React.FC = () => {
       <Link to="/instaUsina"><CardImg  titulo="Usina de investimento" imagem={usina1} /></Link>
       </ContainerImg>
            
-  
 
-          
+
            
     
          <Footer></Footer>
 
+     
+     
+     
     </Container>
      );
     }

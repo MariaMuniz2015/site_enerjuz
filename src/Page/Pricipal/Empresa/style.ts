@@ -9,6 +9,7 @@ export const Container = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+  
 
 `;
 export const ContainerPage = styled.div`
@@ -35,6 +36,7 @@ width:80rem;
 `;
 
 export const Paragrafo = styled.div`
+ max-width:1200px;
     margin-top:1rem;
     margin-bottom:4rem;
     margin-right:18rem;
@@ -45,7 +47,7 @@ export const Paragrafo = styled.div`
     justify-content:center;
     align-items:center;
     text-align: justify;
-
+    max-width:1200;
     @media (max-width: 768px) {
       width:70vw;
       margin-top:4rem;
@@ -62,12 +64,14 @@ export const Paragrafo = styled.div`
 `;
 export const Card= styled.div`
     width:90%;
+    max-width:1200px;
     margin-top:0.2rem;
     flex-direction:row;
     display:flex;
     justify-content:space-around;
     align-items:center;
     gap:3rem;
+    max-width:1200;
 
     @media (max-width: 768px) {
     flex-direction: column;

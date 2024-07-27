@@ -2,7 +2,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width:30vw;
+
+    width:26vw;
     margin-top:1rem;
     display: flex;
     justify-content:center;
@@ -23,8 +24,8 @@ export const Texto = styled.div`
     display: flex;
     justify-content:center;
     align-items:center;
-    margin: 0.4rem;
-    font-size:1rem;
+    margin: 0.2rem;
+    font-size:0.6rem;
 
     @media (max-width: 768px) {
         margin: 0;
@@ -35,12 +36,13 @@ export const Texto = styled.div`
 
     `;
     export const Image = styled.img`
+   
     margin-top:0.8rem;
     width: 80%;
     height: 80%;
      border-radius:0.5rem;
      @media (max-width: 768px) {
         margin-top:0.5rem;
-        width: 90%;
+        width: 70%;
      }
         `;

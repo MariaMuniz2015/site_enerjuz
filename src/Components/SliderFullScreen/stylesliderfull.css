@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerS {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #000;
+  overlay: hiden;
+}
+.tabs input {
+  visibility: hiden;
+  display: none;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10000;
+}
+.buttons label {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  background: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.tabs input:nth-child(1):checked ~ .buttons label:nth-child(1),
+.tabs input:nth-child(2):checked ~ .buttons label:nth-child(2),
+.tabs input:nth-child(3):checked ~ .buttons label:nth-child(3) {
+  opacity: 1;
+  width: 50px;
+}
+
+.contentS {
+  position: relative;
+  width: 300vw;
+  display: flex;
+  transition: 0.5s;
+}
+.contentS .box {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  padding: 40px;
+}
+.contents .box:nth-child(1) {
+  background: #ff4e50;
+}
+.contents .box:nth-child(2) {
+  background: #ccc;
+}
+.contents .box:nth-child(3) {
+  background: #fff;
+}
+
+.tabs input:nth-child(1):checked ~ .contents {
+  left: 0;
+}
+.tabs input:nth-child(2):checked ~ .contents {
+  left: -100wv;
+}
+.tabs input:nth-child(3):checked ~ .contents {
+  left: -200wv;
+}

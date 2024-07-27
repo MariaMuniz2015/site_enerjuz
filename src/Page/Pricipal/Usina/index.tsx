@@ -1,5 +1,5 @@
 
-import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,Box,BoxA, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
+import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,Box,BoxA,BoxC, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
 import cofre from '../../../Components/Img/iconCofre.png';
 import sol from '../../../Components/Img/iconsol.png';
 import dinheiro from '../../../Components/Img/icondinheiro.png';
@@ -7,9 +7,11 @@ import calendar from '../../../Components/Img/iconcalendar.png';
 import painel from '../../../Components/Img/iconPainel.png';
 import contaantes from '../../../Components/Img/contaantes.png';
 import contadepois from '../../../Components/Img/contadepois.png';
+import associacao from '../../../Components/Img/boletoassociacao.png';
+import resultados from '../../../Components/Img/resultados02.png';
 import carteira from '../../../Components/Img/iconcarteira.png';
 import { CardOrcamentoUsina } from "../../../Components/CardOrcamentoUsina";
-import faturas from '../../../Components/Img/fatura01.png';
+
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
 import { CardUsina } from "../../../Components/CardUsina";
@@ -20,7 +22,7 @@ import { ImgAluguel } from "../../../Components/ImgAluguel";
 
 
 
-export const Usina: React.FC = () => {
+export const UsinaAluguel: React.FC = () => {
 
   return(
   
@@ -50,9 +52,13 @@ export const Usina: React.FC = () => {
 <BoxA>
 <BoxSubtitulo>Exemplo real dos lucros com a energia solar.</BoxSubtitulo>
 <BoxB>
+<BoxC>
 <ImgAluguel imagem={contaantes} texto="Conta da cemig sem energia solar"/>
 <ImgAluguel imagem={contadepois} texto="Conta da cemig com energia solar"/>
-<ImgAluguel imagem={faturas} texto="Faturas"/>
+</BoxC>
+
+<ImgAluguel imagem={associacao} texto="Conta da cemig com energia solar"/>
+<ImgAluguel imagem={resultados} texto="Faturas"/>
 </BoxB>
 </BoxA>
 </SectionB>

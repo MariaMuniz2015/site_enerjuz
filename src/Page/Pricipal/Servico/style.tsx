@@ -2,15 +2,11 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    margin-top:7rem;
+ 
     width:100vw;
-  margin-top:6rem;
-    background-color:gren;
-    flex-direction:column;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    z-index:0;
+    height:100vh;
+  margin-top:15rem;
+text-align:center;
 `;
 
 export const Box = styled.div`

@@ -1,24 +1,42 @@
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
+import LightGallery from "lightgallery/react";
+
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
 
 export default function GalleryComercial() {
-  const images = [
-    {
-      original: "comercio1.png",
-      thumbnail: "comercio1mini.png",
-    },
-    {
-      original: "comercio2.png",
-      thumbnail: "comercio2mini.png",
-    },
-    {
-      original: "comercio3.png",
-      thumbnail: "comercio3mini.png",
-    },
-  ];
+  const onBeforeSlide = (detail) => {
+    const { index, prevIndex } = detail;
+    console.log(index, prevIndex);
+  };
   return (
-    <div className="App">
-      <ImageGallery items={images} title="residencial" />;
+    <div class="row justify-content-center">
+      <LightGallery
+        elementClassNames="custom-wrapper-class"
+        onBeforeSlide={onBeforeSlide}
+      >
+        <a href="comercio1.png">
+          <img
+            alt="@enerjuz comercio1"
+            src="comercio1mini.png"
+            class="col  p-4"
+          />
+        </a>
+        <a href="comercio2.png">
+          <img
+            alt="@enerjuz comercio2"
+            src="comercio2mini.png"
+            class="col p-4"
+          />
+        </a>
+        <a href="comercio3.png">
+          <img
+            alt="@enerjuz comercio3"
+            src="comercio3mini.png"
+            class="col p-4"
+          />
+        </a>
+      </LightGallery>
     </div>
   );
 }

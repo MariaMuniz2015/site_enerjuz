@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div<{ corDeFundo: string }>`
-    width: 14rem;
+    width: 16rem;
     height:280px;
     flex-direction:column;
     display:flex;

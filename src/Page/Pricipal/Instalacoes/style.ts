@@ -39,3 +39,9 @@ export const ContainerFooter = styled.div`
     display:flex;
   
 `;
+
+export const ContainerSlider = styled.div`
+  width:90vw;
+  margin-top:100px;
+  
+`;

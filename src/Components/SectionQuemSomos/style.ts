@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-
+ width:92vw;
 margin-top:2rem;
-margin-bottom:6rem;
+margin-bottom:2rem;
 flex-direction:row;
 background-image:url("fundo3.png");
-   background-repeat: no-repeat;
+ background-repeat: no-repeat;
+ background-size: cover;
    display:flex;
    flex-wrap:wrap;
-   width:90vw;
+  
+   max-width:1400px;
    @media (max-width: 900px) {
     flex-direction: column;
     background-image:none;
@@ -60,8 +62,9 @@ export const TextoSomos= styled.div`
 
 export const Imagem= styled.div`
 
-margin-top:2rem;
- width:90%;
+margin-left:2rem;
+margin-top:3rem;
+ width:130%;
  @media (max-width: 768px) {
 width:60%;
  margin-left:2rem;

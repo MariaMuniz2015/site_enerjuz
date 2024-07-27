@@ -18,7 +18,7 @@ import { CardSolar } from '../../../Components/CardSolar';
 
 import comercialIcone from '../../../Components/Img/comercial2ricone.png';
 import agroIcone from '../../../Components/Img/agro3icone.png';
-import funcionamento from'../../../Components/Img/funcionamento.png';
+import funcionamento from'../../../Components/Img/funcionamento03.png';
 import residencialIcone from '../../../Components/Img/residencial2jicone.png';
 import imgResidencial from '../../../Components/Img/residencial1.png';
 import comercial1 from '../../../Components/Img/comercial1.png';
@@ -52,11 +52,11 @@ import Aos from "aos";
 
 const settings: SwiperProps= {
   
-  spaceBetween:8,
+  spaceBetween:6,
 
   navigation: true,
   breakpoints: {
-    961: { slidesPerView: 4 },
+    990: { slidesPerView: 4 },
     739:{ slidesPerView: 3 },
     500: { slidesPerView: 2},
 },
@@ -174,9 +174,10 @@ export const Home: React.FC = () => {
       <SectionServico data-aos="zoom-in-up">
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>
-  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' descricao='A energia solar residencial oferece uma série de benefícios econômicos, ambientais e sociais, tornando-se uma escolha atraente para muitos proprietários de residências que ...'/>
-  <CardServico link='/agro' imagem={agroIcone} titulo='Agro' descricao='A energia solar pode desempenhar um papel importante na melhoria da eficiência, sustentabilidade e rentabilidade das operações agrícolas, tornando-se uma escolha cada vez mais atraente para os agricultores ...'/>
-  <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'descricao='A energia solar oferece uma variedade de benefícios para empresas comerciais, incluindo economia de custos, responsabilidade ambiental, independência energética e valoriza o imóvel.'/>
+  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' />
+  <CardServico link='/agro' imagem={agroIcone} titulo='Agro' />
+  <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'/>
+  
   </BoxServico>
       </SectionServico>
 
@@ -190,6 +191,7 @@ export const Home: React.FC = () => {
        <TituloSection> INSTALAÇÕES</TituloSection>
        <Traco>______</Traco>
     <SubTitulo>Conheça algumas das nossas instalações </SubTitulo>
+    
     <Box>
   <Slider settings={settings}>
 
