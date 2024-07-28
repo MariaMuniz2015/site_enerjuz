@@ -35,25 +35,26 @@ export const BoxContainer = styled.div`
 
 export const ContainerPage = styled.div`
  
-    width:56vw;
+    width:100vw;
     background-color:#fff;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 `;
 
 export const BoxSlider = styled.div`
  
-    width:100vw;
+    width:90vw;
+    height:400px;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
-  
+
     @media (max-width: 768px) {
         width:90vw;
        margin-top:-300px;

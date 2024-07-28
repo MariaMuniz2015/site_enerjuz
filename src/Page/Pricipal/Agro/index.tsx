@@ -1,13 +1,12 @@
 
-import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, BoxSlider, Container, ContainerPage} from "./style";
-import imgAgro from '../../../Components/Img/imgAgro.png';
+import{ BoxSlider, Container} from "./style";
 
-import { CardOrcamento } from "../../../Components/CardOrcamento";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
-import GalleryAgro from "../../../Components/ImageGaleryAgro";
+import SliderAgro2 from "../../../Components/SliderAgro2";
+
+
 
 
 
@@ -18,10 +17,11 @@ export const Agro: React.FC = () => {
           <BoxTitulo titulo="AGRO" traco="____"/>
    
 
-
 <BoxSlider>
- <GalleryAgro/>
- </BoxSlider>
+<SliderAgro2/>
+</BoxSlider>
+
+
  <Footer></Footer>
     </Container>
   )

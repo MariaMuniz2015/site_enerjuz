@@ -15,24 +15,17 @@ export default function GalleryResidencial() {
         elementClassNames="custom-wrapper-class"
         onBeforeSlide={onBeforeSlide}
       >
-        <a href="residecial1.png">
-          <img
-            alt="@enerjuz residencial 1"
-            src="residecial1mini.png"
-            class="col  p-4"
-          />
-        </a>
-        <a href="residencial02.png">
+        <a href="calinhos1.png">
           <img
             alt="@enerjuz residencial 2"
-            src="residencial2mini.png"
+            src="calinhos1mini.png"
             class="col p-4"
           />
         </a>
-        <a href="residencial3.png">
+        <a href="carlinhosin.png">
           <img
             alt="@enerjuz residencial 3"
-            src="residencial3mini.png"
+            src="carlinhosinmini0.png"
             class="col p-4"
           />
         </a>

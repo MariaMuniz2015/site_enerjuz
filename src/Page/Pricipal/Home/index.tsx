@@ -174,7 +174,7 @@ export const Home: React.FC = () => {
       <SectionServico data-aos="zoom-in-up">
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>
-  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' />
+  <CardServico link='/agro' imagem={residencialIcone} titulo='Residencial' />
   <CardServico link='/agro' imagem={agroIcone} titulo='Agro' />
   <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'/>
   
