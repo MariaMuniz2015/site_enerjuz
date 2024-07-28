@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Imagem, Titulo}from "./style";
+import { Container, Imagem}from "./style";
 
 
 interface Props {
