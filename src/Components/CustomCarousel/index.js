@@ -17,6 +17,7 @@ function CustomCarousel({ children }) {
         }, 5000)
       );
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slideDone]);
 
   const slideNext = () => {
