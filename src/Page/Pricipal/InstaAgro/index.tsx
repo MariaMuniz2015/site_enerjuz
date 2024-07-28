@@ -1,5 +1,4 @@
 
-import { BoxInstalacao } from "../../../Components/BoxInstalacao";
 import { Container, BoxSlider} from "./style";
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
