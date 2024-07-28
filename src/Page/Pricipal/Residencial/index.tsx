@@ -1,7 +1,6 @@
-import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage,} from "./style";
-import imgResidencial from '../../../Components/Img/residencial1.png';
-import { CardOrcamento } from "../../../Components/CardOrcamento";
+
+import{ Container} from "./style";
+
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
