@@ -47,13 +47,14 @@ export const ContainerPage = styled.div`
 
 export const BoxSlider = styled.div`
  
-    width:90vw;
-    height:400px;
+    width:80vw;
+    height:600px;
     flex-direction:row;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:0;
+  
 
     @media (max-width: 768px) {
         width:90vw;

@@ -177,7 +177,7 @@ export const Home: React.FC = () => {
   <CardServico link='/agro' imagem={residencialIcone} titulo='Residencial' />
   <CardServico link='/agro' imagem={agroIcone} titulo='Agro' />
   <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'/>
-  
+  <CardServico link='/usina' imagem={imgUsina1} titulo='Usina'/>
   </BoxServico>
       </SectionServico>
 

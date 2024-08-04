@@ -4,7 +4,8 @@ import{ BoxSlider, Container} from "./style";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
-import SliderAgro2 from "../../../Components/SliderAgro2";
+
+import GalleryAgro from "../../../Components/GalleryAgro";
 
 
 
@@ -18,7 +19,7 @@ export const Agro: React.FC = () => {
    
 
 <BoxSlider>
-<SliderAgro2/>
+<GalleryAgro/>
 </BoxSlider>
 
 
