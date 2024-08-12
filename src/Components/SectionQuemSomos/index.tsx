@@ -3,7 +3,7 @@
 import { TextTituloSectionSobre} from "../TextTituloSectionSobre"
 import React, { useEffect } from 'react';
 import { Container, TextoSomos, Imagem, ColumTexto, ColumnPage,Texto} from './style';
-import equipeAzul from"../../Components/Img/equipeAzul.png";
+import equipeAzul from"../../assets/Img/equipeAzul.png";
 import { CardImgSomos } from '../CardImgSomos';
 import "aos/dist/aos.css"
 import Aos from "aos";

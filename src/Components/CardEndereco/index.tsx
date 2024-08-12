@@ -10,21 +10,21 @@ function CardEndereco() {
         <Card>
         <Coluna>  <CallIcon fontSize='large' color="primary"/></Coluna>
         <Coluna><Text>Telefone</Text></Coluna>
-        <Coluna>(37)9999-8888</Coluna>
+        <Coluna>(37)99866-9261</Coluna>
       
         </Card>
         <Card>
       
         <Coluna><MailIcon fontSize='large' color="primary"/></Coluna>
         <Coluna><Text>Email</Text></Coluna>
-        <Coluna>@vendasenerjuz.com </Coluna>
+        <Coluna>enerjuz@gmail.com </Coluna>
         </Card>
 
         <Card>
       
         <Coluna> <WhatsAppIcon fontSize='large' color="primary"/></Coluna>
         <Coluna><Text>WhatsApp</Text></Coluna>
-        <Coluna>9999-8888</Coluna>
+        <Coluna>(37)99866-9261</Coluna>
         </Card>
         <Card>
       

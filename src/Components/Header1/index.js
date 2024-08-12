@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import CallIcon from "@mui/icons-material/Call";
-import logo from "../Img/logoTransparent.png";
+import logo from "../../assets/Img/logoTransparent.png";
 
 import "./header.css";
 
@@ -32,7 +32,7 @@ const Menu = () => (
         </li>
 
         <li>
-          <div className="btn">(37)9999-8888</div>
+          <div className="btn">(37)99866-9261</div>
         </li>
         <li>
           <div className="inst">
@@ -88,7 +88,7 @@ const Header1 = () => {
       <div className="links">
         <div className="tel">
           <CallIcon color="warning" />
-          <a href="tel:31999766499">(31)99976-6499</a>
+          <a href="tel:3799866-9261">(37)99866-9261</a>
         </div>
         <div className="links_logo">
           <Logo imagem={logo} />

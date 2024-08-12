@@ -2,7 +2,7 @@
 import { Container, BoxSlider} from "./style";
 import { Footer } from "../../../Components/Footer";
 import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
-import GalleryAgro from "../../../Components/ImageGaleryAgro";
+import GalleryAgro from "../../../Components/GalleryAgro";
 
 
 

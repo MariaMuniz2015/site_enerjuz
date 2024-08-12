@@ -1,4 +1,4 @@
-import logo from "../Img/logoTransparent.png";
+import logo from "../../assets/Img/logoTransparent.png";
 import { LogoFooter } from "../LogoFooter";
 import { Link } from "react-router-dom";
 import {Container,Box, Column, ContainerPage, LinkFooter,Rodape, ColumnRodape} from "./style";
@@ -64,13 +64,13 @@ ATENDIMENTO
 
 <LinkFooter>
 <Box>
-<CallIcon color="warning"/>(37)9999-8888
+<CallIcon color="warning"/>(37)99866-9261
 </Box>
 </LinkFooter>
 
 <LinkFooter>
 <Box>
-  <WhatsAppIcon color="warning"/>(37)9999-8888
+  <WhatsAppIcon color="warning"/>(37)99866-9261
   </Box>
 </LinkFooter>
 

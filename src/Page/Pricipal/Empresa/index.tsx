@@ -4,10 +4,10 @@ import React from 'react';
 
 import { Paragrafo, Container, ContainerPage,Card,CardContact} from './style';
 import CardContato from '../../../Components/CardContato';
-import visao from '../../../Components/Img/visao.png'
-import missao from '../../../Components/Img/meta.png'
-import equipe from '../../../Components/Img/imgequipe.png';
-import painelSolar from '../../../Components/Img/painelSolar.png';
+import visao from '../../../assets/Img/visao.png'
+import missao from '../../../assets/Img/meta.png'
+import equipe from '../../../assets/Img/imgequipe.png';
+import painelSolar from '../../../assets/Img/painelSolar.png';
 
 import { BoxTitulo } from '../../../Components/BoxTitulo';
 import { CardImgEquipeEmpresa } from '../../../Components/CardImgEquipeEmpresa';
@@ -21,7 +21,7 @@ import { CardVisao } from '../../../Components/CardVisao';
 export const Empresa: React.FC = () => {
   return (
     <Container>
-           <BoxTitulo titulo="Somos a ENERJUZ" traco='________'/>
+           <BoxTitulo titulo="SOMOS A ENERJUZ" traco='_______________'/>
            <ContainerPage>
 
            <CardContact>

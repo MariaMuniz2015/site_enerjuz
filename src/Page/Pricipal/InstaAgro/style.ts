@@ -16,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const BoxSlider = styled.div`
-width:100vw;
+width:80vw;
 flex-direction:row;
 display:flex;
 justify-content:center;

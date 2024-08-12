@@ -20,7 +20,7 @@ import { Residencial} from './Residencial';
 import { InstaComercial} from './InstaComercial';
 import { InstaAgro} from './InstaAgro';
 import { InstaResidencial} from './InstaResidencial';
-import { InstaUsina} from './InstaUsina';
+import { UsinaInvestimento} from './UsinaInvestimento';
 import { Obrigada} from './Obrigada';
 
 import  Header1  from '../../Components/Header1';
@@ -46,7 +46,7 @@ export const Principal: React.FC = () => {
         <Route path='/instaComercial' element={<InstaComercial/>} />
         <Route path='/instaAgro' element={<InstaAgro/>} />
         <Route path='/instaResidencial' element={<InstaResidencial/>} />
-        <Route path='/instaUsina' element={<InstaUsina/>} />
+        <Route path='/usinaInvestimento' element={<UsinaInvestimento/>} />
         <Route path='/obrigada' element={<Obrigada/>} />
      
       </Routes>

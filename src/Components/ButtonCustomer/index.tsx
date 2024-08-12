@@ -1,13 +1,13 @@
 import './style.css';
 
-import zap from'../Img/zapmini.png';
+import zap from'../../assets/Img/zapmini.png';
 
 
 
 export const ButtonCustomer: React.FC = () => {
   return(
     <div className="containerzap">
-        <a target="_blank" rel="noreferrer" href="https://wa.me/553199766499">
+        <a target="_blank" rel="noreferrer" href="https://wa.me/5537998669261">
     <div className="pulsar">
    
   

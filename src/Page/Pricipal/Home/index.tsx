@@ -16,28 +16,28 @@ import { CardServico } from '../../../Components/CardServico';
 import { Footer } from '../../../Components/Footer';
 import { CardSolar } from '../../../Components/CardSolar';
 
-import comercialIcone from '../../../Components/Img/comercial2ricone.png';
-import agroIcone from '../../../Components/Img/agro3icone.png';
-import funcionamento from'../../../Components/Img/funcionamento03.png';
-import residencialIcone from '../../../Components/Img/residencial2jicone.png';
-import imgResidencial from '../../../Components/Img/residencial1.png';
-import comercial1 from '../../../Components/Img/comercial1.png';
-import imgAgro from '../../../Components/Img/imgAgro.png';
-import imgUsina1 from '../../../Components/Img/imgUsina1.jpg';
-//import Agro from '../../../Components/Img/agro1.png';
-import pesquisa1 from '../../../Components/Img/pesquisa1.png';
-import proposta from '../../../Components/Img/proposta.png';
-import meioambienteg from '../../../Components/Img/meioambienteg.png';
-import retorno from '../../../Components/Img/retorno.png';
-import sustentavel from '../../../Components/Img/sustentavel.png';
-import casaenergia from '../../../Components/Img/casaenergia.png';
-import painelsolars from '../../../Components/Img/painelsolars.png';
-import manutencao2 from '../../../Components/Img/manutencao2.png';
-import projeto from '../../../Components/Img/projeto.png';
-import imovel from '../../../Components/Img/imovel.png';
-import requisitos from '../../../Components/Img/requisitos.png';
-import psolar from '../../../Components/Img/psolar.png';
-import instalacao from '../../../Components/Img/instalacao.png';
+import comercialIcone from '../../../assets/Img/comercial2ricone.png';
+import agroIcone from '../../../assets/Img/agro3icone.png';
+import funcionamento from'../../../assets/Img/funcionamento03.png';
+import residencialIcone from '../../../assets/Img/residencial2jicone.png';
+import imgResidencial from '../../../assets/Img/residencial1.png';
+import comercial1 from '../../../assets/Img/comercial1.png';
+import imgAgro from '../../../assets/Img/imgAgro.png';
+import imgUsina1 from '../../../assets/Img/imgUsina1.jpg';
+//import Agro from '../../../assets/Img/agro1.png';
+import pesquisa1 from '../../../assets/Img/pesquisa1.png';
+import proposta from '../../../assets/Img/proposta.png';
+import meioambienteg from '../../../assets/Img/meioambienteg.png';
+import retorno from '../../../assets/Img/retorno.png';
+import sustentavel from '../../../assets/Img/sustentavel.png';
+import casaenergia from '../../../assets/Img/casaenergia.png';
+import painelsolars from '../../../assets/Img/painelsolars.png';
+import manutencao2 from '../../../assets/Img/manutencao2.png';
+import projeto from '../../../assets/Img/projeto.png';
+import imovel from '../../../assets/Img/imovel.png';
+import requisitos from '../../../assets/Img/requisitos.png';
+import psolar from '../../../assets/Img/psolar.png';
+import instalacao from '../../../assets/Img/instalacao.png';
 //import Aos from 'aos';
 ///import 'aos/dist/aos.css';
 import Animate from '../../../Components/Animate';
@@ -174,10 +174,10 @@ export const Home: React.FC = () => {
       <SectionServico data-aos="zoom-in-up">
    <TextTituloSection textoI='NOSSOS' textoF='SERVIÇOS' traco='______'></TextTituloSection>
     <BoxServico>
-  <CardServico link='/agro' imagem={residencialIcone} titulo='Residencial' />
+  <CardServico link='/residencial' imagem={residencialIcone} titulo='Residencial' />
   <CardServico link='/agro' imagem={agroIcone} titulo='Agro' />
   <CardServico link='/comercial' imagem={comercialIcone} titulo='Comercial'/>
-  <CardServico link='/usina' imagem={imgUsina1} titulo='Usina'/>
+  <CardServico link='/usinaInvestimento' imagem={imgUsina1} titulo='Usina'/>
   </BoxServico>
       </SectionServico>
 
@@ -198,7 +198,7 @@ export const Home: React.FC = () => {
   <SwiperSlide><Link to="/Agro"><CardInstalacao titulo="Agro" imagem={imgAgro} /></Link></SwiperSlide>   
   <SwiperSlide><Link to="/Residencial"><CardInstalacao titulo="Residencial" imagem={imgResidencial} /></Link></SwiperSlide>
   <SwiperSlide><Link to="/Comercial"><CardInstalacao titulo="Comercial" imagem={comercial1} /></Link></SwiperSlide>
-  <SwiperSlide><Link to="/InstaUsina"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></Link></SwiperSlide>
+  <SwiperSlide><Link to="/UsinaInvestimento"><CardInstalacao titulo="Usina" imagem={imgUsina1} /></Link></SwiperSlide>
 
   </Slider>
   </Box>

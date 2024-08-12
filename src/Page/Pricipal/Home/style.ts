@@ -73,7 +73,7 @@ export const SectionServico = styled.section`
 
 
 export const SectionSolarFuncionamento = styled.section`
-max-width:1200px;
+max-width:1260px;
  width:99vw;
     height:600px;
   

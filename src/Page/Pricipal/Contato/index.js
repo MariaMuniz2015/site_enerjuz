@@ -21,7 +21,7 @@ export function Contato() {
       <div className={style.containerDiv}>
         <form
           className={style.form}
-          action="https://formsubmit.co/cidamunizz2015@gmail.com"
+          action="https://formsubmit.co/enerjuz@gmail.com"
           method="POST"
         >
           <input type="hidden" name="_captcha" value="false" />

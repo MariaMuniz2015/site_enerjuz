@@ -14,7 +14,7 @@ export const CardOrcamentoUsina: React.FC = () => {
       </div>
 
         <div className={style.formulario}>
-       <form action="https://formsubmit.co/cidamunizz2015@gmail.com"
+       <form action="https://formsubmit.co/enerjuz@gmail.com"
           method="POST">
        
        <input type="hidden" name="_captcha" value="false" />

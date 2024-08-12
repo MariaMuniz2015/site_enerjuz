@@ -1,15 +1,15 @@
 
 import{BoxContainer, Container, ContainerPage,Texto, BoxSubtitulo,Box,BoxA,BoxC, SectionA, SectionB, BoxAccordion,Titulo, BoxB} from "./style";
-import cofre from '../../../Components/Img/iconCofre.png';
-import sol from '../../../Components/Img/iconsol.png';
-import dinheiro from '../../../Components/Img/icondinheiro.png';
-import calendar from '../../../Components/Img/iconcalendar.png';
-import painel from '../../../Components/Img/iconPainel.png';
-import contaantes from '../../../Components/Img/contaantes.png';
-import contadepois from '../../../Components/Img/contadepois.png';
-import associacao from '../../../Components/Img/boletoassociacao.png';
-import resultados from '../../../Components/Img/resultados02.png';
-import carteira from '../../../Components/Img/iconcarteira.png';
+import cofre from '../../../assets/Img/iconCofre.png';
+import sol from '../../../assets/Img/iconsol.png';
+import dinheiro from '../../../assets/Img/icondinheiro.png';
+import calendar from '../../../assets/Img/iconcalendar.png';
+import painel from '../../../assets/Img/iconPainel.png';
+import contaantes from '../../../assets/Img/contaantes.png';
+import contadepois from '../../../assets/Img/contadepois.png';
+import associacao from '../../../assets/Img/boletoassociacao.png';
+import resultados from '../../../assets/Img/resultados02.png';
+import carteira from '../../../assets/Img/iconcarteira.png';
 import { CardOrcamentoUsina } from "../../../Components/CardOrcamentoUsina";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
@@ -27,7 +27,7 @@ export const UsinaAluguel: React.FC = () => {
   return(
   
       <Container>
-            <BoxTitulo titulo="ALUGUEL DE USINA" traco="______________"/>
+            <BoxTitulo titulo="ALUGUEL DE USINA" traco="________________"/>
 
         <BoxContainer>
       <ContainerPage>
