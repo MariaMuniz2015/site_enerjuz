@@ -41,7 +41,7 @@ export const SectionMobile = styled.section`
 
     /// background-color:#000;
     max-width:600px;
-    margin-top:460px;
+    margin-top:-660px;
    z-index:0;
     @media (min-width: 768px){ 
         display:none;
