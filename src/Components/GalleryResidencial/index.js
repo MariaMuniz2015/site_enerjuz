@@ -18,28 +18,28 @@ export default function GalleryResidencial() {
       >
         <a href="residencial004.png">
           <img
-            alt="@enerjuz residencial 2"
+            alt="@enerjuz - instalação energia fotovoltaíca residencial 1"
             src="residencial004mini.png"
             className="image"
           />
         </a>
         <a href="residencial003.png">
           <img
-            alt="@enerjuz residencial 3"
+            alt="@enerjuz - inversor energia fotovoltaica residencial"
             src="residencial003mini.png"
             className="image"
           />
         </a>
         <a href="residencial001.png">
           <img
-            alt="@enerjuz residencial 4"
+            alt="@enerjuz instalação energia fotovoltaíca residencial 2"
             src="residencial001mini.png"
             className="image"
           />
         </a>
         <a href="residencial002.png">
           <img
-            alt="@enerjuz residencial 4"
+            alt="@enerjuz - inversor energia fotovoltaica residencial"
             src="residencial002mini.png"
             className="image"
           />

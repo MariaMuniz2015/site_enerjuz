@@ -18,29 +18,37 @@ export default function GalleryAgro() {
         onBeforeSlide={onBeforeSlide}
       >
         <a href="agro002.png">
-          <img alt="@enerjuz agro 2" className="image" src="agro002mini.png" />
+          <img
+            alt="@enerjuz instalação fotovoltaíca agro 1"
+            className="image"
+            src="agro002mini.png"
+          />
         </a>
 
         <a href="agro003.png">
           <img
-            alt="@enerjuz agro - inversor"
+            alt="@enerjuz - inversor energia fotovoltaíca"
             className="image"
             src="agro003mini.png"
           />
         </a>
         <a href="agro001.png">
-          <img alt="@enerjuz agro 1" className="image" src="agro001mini.png" />
+          <img
+            alt="@enerjuz instalação fotovoltaíca agro 2"
+            className="image"
+            src="agro001mini.png"
+          />
         </a>
         <a href="agro007.png">
           <img
-            alt="@enerjuz agro - inversor"
+            alt="@enerjuz - inversor energia fotovoltaíca "
             className="image"
             src="agro007mini.png"
           />
         </a>
         <a href="agro006.png">
           <img
-            alt="@enerjuz agro - 4"
+            alt="@enerjuz instalação fotovoltaíca agro 3"
             className="image"
             src="agro006mini.png"
           />

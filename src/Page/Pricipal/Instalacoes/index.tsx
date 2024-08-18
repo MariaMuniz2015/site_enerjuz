@@ -22,10 +22,10 @@ export const Instalacoes: React.FC = () => {
 
        <ContainerImg>
       
-       <Link to="/instaAgro"><CardImg  titulo="Agro" imagem={imgAgro} /></Link>
-      <Link to="/instaComercial"><CardImg  titulo="Comercial" imagem={imgComercial} /></Link>
-      <Link to="/instaResidencial"><CardImg  titulo="Residencial" imagem={imgResidencial} /></Link>
-      <Link to="/UsinaInvestimento"><CardImg  titulo="Usina de investimento" imagem={usina1} /></Link>
+       <Link to="/Agro"><CardImg  titulo="Agro" imagem={imgAgro} /></Link>
+      <Link to="/Comercial"><CardImg  titulo="Comercial" imagem={imgComercial} /></Link>
+      <Link to="/Residencial"><CardImg  titulo="Residencial" imagem={imgResidencial} /></Link>
+      <Link to="/UsinaInvestimento"><CardImg  titulo="Usina fotovoltaíca" imagem={usina1} /></Link>
       </ContainerImg>
            
 

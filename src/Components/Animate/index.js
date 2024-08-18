@@ -17,7 +17,7 @@ function Animate() {
           <img
             className="d-block w-100"
             src="imgusina.png"
-            alt="Imagem usina"
+            alt="Imagem usina fotovoltaíca"
             backgroundPosition="center"
             backgroundSize="cover"
             height="100%"
@@ -49,7 +49,7 @@ function Animate() {
             className="d-block w-100"
             position="absolute"
             src="img004.png"
-            alt="Imagem tres"
+            alt="Instalação de energia fotovoltaíca"
             backgroundPosition="center"
             backgroundSize="cover"
             height="100%"
@@ -79,7 +79,7 @@ function Animate() {
           <img
             className="d-block w-100"
             src="capa01.png"
-            alt="Imagem um"
+            alt="painel solar, energia fotovoltaíca"
             backgroundPosition="center"
             backgroundSize="cover"
             height="100%"

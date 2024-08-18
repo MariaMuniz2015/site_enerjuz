@@ -18,28 +18,28 @@ export default function GalleryUsina() {
       >
         <a href="usina05.png">
           <img
-            alt="@enerjuz usina de investimento 5"
+            alt="@enerjuz - usina de energia fotovoltaíca 1"
             src="usina05mini.png"
             className="image"
           />
         </a>
         <a href="usina04.png">
           <img
-            alt="@enerjuz usina de investimento 4"
+            alt="@enerjuz - usina de energia fotovoltaíca 2"
             src="usina04mini.png"
             className="image"
           />
         </a>
         <a href="usina03.png">
           <img
-            alt="@enerjuz usina de investimento 3"
+            alt="@enerjuz - usina de energia fotovoltaíca 3"
             src="usina03mini.png"
             className="image"
           />
         </a>
         <a href="usina02.png">
           <img
-            alt="@enerjuz usina de investimento 2"
+            alt="@enerjuz - usina de energia fotovoltaíca 4 "
             src="usina02mini.png"
             className="image"
           />
@@ -47,7 +47,7 @@ export default function GalleryUsina() {
 
         <a href="usina01.png">
           <img
-            alt="@enerjuz usina de investimento 1"
+            alt="@enerjuz - usina de energia fotovoltaíca 5"
             src="usina01mini.png"
             className="image"
           />

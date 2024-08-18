@@ -18,28 +18,28 @@ export default function GalleryComercial() {
       >
         <a href="comercio01.png">
           <img
-            alt="@enerjuz comercio 1"
+            alt="@enerjuz - instalacão fotovoltaíca comercial 1 "
             src="comercio01mini.png"
             className="image"
           />
         </a>
         <a href="comercio002.png">
           <img
-            alt="@enerjuz comercio 2"
+            alt="@enerjuz - instalacão fotovoltaíca comercial 2"
             src="comercio002mini.png"
             className="image"
           />
         </a>
         <a href="comercio003.png">
           <img
-            alt="@enerjuz comercio 3"
+            alt="@enerjuz - instalacão fotovoltaíca comercial 3"
             src="comercio003mini.png"
             className="image"
           />
         </a>
         <a href="comercio04.png">
           <img
-            alt="@enerjuz comercio 4"
+            alt="@enerjuz - instalacão fotovoltaíca comercial 4"
             src="comercio04mini.png"
             className="image"
           />

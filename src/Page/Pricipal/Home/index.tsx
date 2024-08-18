@@ -18,7 +18,7 @@ import { CardSolar } from '../../../Components/CardSolar';
 
 import comercialIcone from '../../../assets/Img/comercial2ricone.png';
 import agroIcone from '../../../assets/Img/agro3icone.png';
-import funcionamento from'../../../assets/Img/funcionamento03.png';
+import funcionamento from'../../../assets/Img/funcionamentof.png';
 import residencialIcone from '../../../assets/Img/residencial2jicone.png';
 import imgResidencial from '../../../assets/Img/residencial1.png';
 import comercial1 from '../../../assets/Img/comercial1.png';
@@ -125,8 +125,8 @@ export const Home: React.FC = () => {
   </SectionSolarFuncionamento>
 
   <SectionSolarFuncionamento2  data-aos="zoom-in-up">
-  <TituloSectionFunc>COMO FUNCIONA</TituloSectionFunc>
-       <Traco>________</Traco>
+  <TituloSectionFunc>COMO FUNCIONA A CAPTAÇÃO E CONVERSÃO DA ENERGIA SOLAR</TituloSectionFunc>
+      
 <BoxImage>
 <CardFucionamento imagem={funcionamento}/>
 

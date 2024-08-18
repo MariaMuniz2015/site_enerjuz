@@ -11,8 +11,8 @@ function MobileAnimate() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="residencial2.png"
-            alt="Imagem Two"
+            src="imgcapac.png"
+            alt="Imagem usina fotovoltaíca"
           />
           <div>
             <Carousel.Caption>
@@ -36,7 +36,11 @@ function MobileAnimate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="imgAgro2.png" alt="Imagem Tree" />
+          <img
+            className="d-block w-100"
+            src="imgAgro2.png"
+            alt="Instalação de energia fotovoltaíca"
+          />
           <Carousel.Caption>
             <h1
               style={{
@@ -65,7 +69,11 @@ function MobileAnimate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="Usina1.jpg" alt="Imagem One" />
+          <img
+            className="d-block w-100"
+            src="usinaimgc.png"
+            alt="Instalação de energia fotovoltaíca 2"
+          />
           <Carousel.Caption>
             <h1
               style={{
