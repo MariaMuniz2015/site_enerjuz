@@ -112,6 +112,7 @@ export const SectionSolarCinzaI = styled.section`
     margin-top:10px;
     @media (max-width: 768px) {
         height:900px;
+        margin-top:20px;
     }
 `;
 
