@@ -10,7 +10,9 @@ export const Container = styled.div`
     align-items:center;
     z-index:0;
     margin-top:6rem;
-  
+    @media (max-width: 768px) {
+    margin-top:8.2rem;
+    }
    `;
 export const BoxContainer = styled.div`
  
@@ -51,11 +53,12 @@ justify-content:center;
 align-items:center;
 z-index:0;
 
+    @media (max-width: 768px) {
+        width:90vw;
+       margin-top:200px;
+      margin-bottom:500px;
+      height:700px;
+    }
 
-@media (max-width: 768px) {
-    width:98vw;
-   margin-top:-300px;
-  margin-bottom:360px;
 
-}
 `;

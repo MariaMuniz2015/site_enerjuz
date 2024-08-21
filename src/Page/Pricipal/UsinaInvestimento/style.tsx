@@ -12,7 +12,7 @@ export const Container = styled.div`
     z-index:0;
     @media (max-width: 768px) {
     
-       margin-top:8.6rem;
+       margin-top:8.2rem;
   
 
     }
@@ -28,11 +28,11 @@ export const BoxSlider = styled.div`
     justify-content:center;
     align-items:center;
     z-index:0;
-  
+ 
     @media (max-width: 768px) {
         width:90vw;
-       margin-top:-300px;
-      margin-bottom:360px;
-
+       margin-top:200px;
+      margin-bottom:500px;
+      height:1000px;
     }
     `;

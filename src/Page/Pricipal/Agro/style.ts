@@ -12,8 +12,10 @@ export const Container = styled.div`
     margin-top:5rem;
     @media (max-width: 768px) {
        
-        flex-direction:column;
+    flex-direction:column;
+    margin-top:8.2rem;
     }
+    
     
   
    `;
@@ -58,8 +60,8 @@ export const BoxSlider = styled.div`
 
     @media (max-width: 768px) {
         width:90vw;
-       margin-top:300px;
-      margin-bottom:360px;
-
+       margin-top:200px;
+      margin-bottom:500px;
+      height:1000px;
     }
     `;
