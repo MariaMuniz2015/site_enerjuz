@@ -22,7 +22,8 @@ height: 28%;
 border-radius:0.5rem;
 
  @media (max-width: 768px) {
-  width:90%;
+  width:140%;
+  height: 38%;
   margin-top:2rem;
  }
 `;
